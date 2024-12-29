@@ -119,3 +119,18 @@ Defines the Docker image for the project. It:
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Configuration
+
+Create a file named appsettings.Development.json in the App directory with the following content:
+
+```json
+{
+    "HomeAssistant": {
+        "Host": "homeassistant.local",
+        "Port": 8123,
+        "Ssl": false,
+        "Token": "your_home_assistant_long_lived_access_token"
+    }
+}
+```
