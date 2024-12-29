@@ -1,128 +1,70 @@
 # New Moon Notifier
 
-This project is a template for deploying a binary package to NetDaemon. It includes a NewMoonNotifier app that sends notifications about the next new moon using Home Assistant and NetDaemon.
+*Ever wondered when to celebrate the new moon, just like in the Bible? Well, you're in luck! The New Moon Notifier has got you covered!*
 
-For more details, see the [NewMoonNotifier.cs](HomeAssistant/apps/NewMoonNotifier/NewMoonNotifier.cs) file.
+## Overview
+
+This project is a sleek template for deploying a binary package to NetDaemon. But wait—it’s not just *any* template. This one sends you WhatsApp notifications about upcoming new moons! Because nothing says "I'm organized" like a celestial calendar at your fingertips.
 
 ## Features
 
-- Sends WhatsApp messages when the next new moon is within 72 hours.
-- Updates Home Assistant sensors with the time remaining until the next new moon.
-- Sends persistent notifications with information about the next new moon.
+- *Cosmic WhatsApp*: Sends a message to remind you of the new moon within 72 hours.
+- *Galactic Sensors*: Updates Home Assistant with countdowns for the next new moon.
+- *Persistent Magic*: Pops up notifications so you never miss the lunar action.
 
-## Getting Started
+## Prerequisites
 
-Please see [netdaemon.xyz](https://netdaemon.xyz/docs) for more information about getting started with developing apps for Home Assistant using NetDaemon.
+Before diving into the lunar vibes, you’ll need:
 
-### Prerequisites
+- .NET 9 SDK (*because 8 is sooo last lunar cycle*)
+- Docker (because containers are cool, like spaceships)
+- Home Assistant (to make your smart home extra cosmic)
+- NetDaemon (the secret sauce of automation wizards)
 
-- .NET 9 SDK
-- Docker
-- Home Assistant
-- NetDaemon
+## Setup
 
-### Setup
+Ready to launch your moon tracker? Follow these steps:
 
-1. Clone the repository:
+1. Clone this interstellar repository:
 
     ```sh
     git clone <repository-url>
     cd HomeAssistant
     ```
 
-2. Restore the .NET dependencies:
+2. Restore .NET dependencies:
 
     ```sh
     dotnet restore
     ```
 
-3. Build the project:
+3. Build your project (*because building is cooler than buying*):
 
     ```sh
     dotnet build
     ```
 
-4. Publish the project:
+4. Publish it (*not to the moon, just yet*):
 
     ```sh
     dotnet publish -c Release -o ./publish
     ```
 
-5. Build the Docker image:
+5. Build your Docker spaceship:
 
     ```sh
     docker build -t newmoonnotifier:latest .
     ```
 
-6. Run the Docker container:
+6. Launch the Docker container (*Houston, we have lift-off!*):
 
     ```sh
     docker run -d --name newmoonnotifier newmoonnotifier:latest
     ```
 
-### Using the Code Generator
-
-Please add code generation features in 
-
-program.cs
-
- when using code generation features by removing comments.
-
-See [NetDaemon Code Generator](https://netdaemon.xyz/docs/hass_model/hass_model_codegen) for more details.
-
-## Issues
-
-- If you have issues or suggestions for improvements to this template, please [add an issue](https://github.com/net-daemon/netdaemon-app-template).
-- If you have issues or suggestions for improvements to NetDaemon, please [add an issue](https://github.com/net-daemon/netdaemon/issues).
-
-## Discuss the NetDaemon
-
-### Community and Support
-
-Join the conversation and get support from the NetDaemon community. Share your experiences, ask questions, and help others by participating in discussions.
-
-Please [join the Discord server](https://discord.gg/K3xwfcX) to get support or if you want to contribute and help others.
-
-## Code Overview
-
-### [program.cs](HomeAssistant/program.cs)
-
-The entry point of the application. It sets up the NetDaemon host and registers the [NewMoonNotifier.cs](HomeAssistant/apps/NewMoonNotifier/NewMoonNotifier.cs) app.
-
-### [NewMoonNotifier.cs](HomeAssistant/apps/NewMoonNotifier/NewMoonNotifier.cs)
-
-Contains the [NewMoonNotifier.cs](HomeAssistant/apps/NewMoonNotifier/NewMoonNotifier.cs) class, which is responsible for:
-
-- Sending WhatsApp messages when the next new moon is within 72 hours.
-- Updating Home Assistant sensors with the time remaining until the next new moon.
-- Sending persistent notifications with information about the next new moon.
-
-### [build.ps1](HomeAssistant/build.ps1)
-
-A PowerShell script to automate the build and deployment process. It:
-
-1. Navigates to the project directory.
-2. Runs `dotnet build`.
-3. Runs `dotnet publish`.
-4. Builds the Docker image.
-5. Stops and removes any existing Docker container.
-6. Runs a new Docker container.
-
-### [Dockerfile](HomeAssistant/Dockerfile)
-
-Defines the Docker image for the project. It:
-
-1. Uses the .NET 9 SDK to build the project.
-2. Publishes the project to a folder.
-3. Uses the .NET 9 ASP.NET runtime to run the published project.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 ## Configuration
 
-Create a file named appsettings.Development.json in the App directory with the following content:
+Add some magic (a.k.a. your Home Assistant details) to a file named `appsettings.Development.json`:
 
 ```json
 {
@@ -134,3 +76,24 @@ Create a file named appsettings.Development.json in the App directory with the f
     }
 }
 ```
+
+Remember: Replace "your_home_assistant_long_lived_access_token" with your actual token. No, "abracadabra" won’t work.
+
+## Issues?
+
+- If you’re stuck, you can [add an issue](https://github.com/net-daemon/netdaemon-app-template) and summon the GitHub wizards.
+- For NetDaemon-related woes, [add an issue here](https://github.com/net-daemon/netdaemon/issues).
+
+## Community & Support
+
+Feeling lonely on your lunar journey? Join the cosmic chatter:
+
+- [Discord](https://discord.gg/K3xwfcX) (*where all the cool lunar geeks hang out*)
+
+## License
+
+This project is licensed under the MIT License. Translation? Do cool stuff with it, but don't sue us if your lunar obsession gets out of hand.
+
+---
+
+*May your new moons be timely and your automations bug-free!*

@@ -5,10 +5,6 @@ Set-Location -Path "C:/Project/Habitica/HomeAssistant"
 Write-Host "Running dotnet build..."
 dotnet build
 
-# Run dotnet publish
-#Write-Host "Running dotnet publish..."
-#dotnet publish -c Release -o ./publish
-
 # Build the Docker image
 Write-Host "Building Docker image..."
 docker build -t newmoonnotifier:latest .
