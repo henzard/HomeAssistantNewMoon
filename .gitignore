@@ -18,7 +18,7 @@ appsettings.docker.json
 
 # Local History for Visual Studio Code
 .history/
-
+deploy.ps1
 # Built Visual Studio Code Extensions
 *.vsix
 

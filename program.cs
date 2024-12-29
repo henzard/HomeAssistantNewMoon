@@ -6,38 +6,42 @@ using NetDaemon.Extensions.Tts;
 using NetDaemon.Runtime;
 using HomeAssistantGenerated;
 using HomeAssistantApps;
+using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 
-#pragma warning disable CA1812
-
-try
+public class Program
 {
-    await Host.CreateDefaultBuilder(args)
-        .ConfigureAppConfiguration((context, config) =>
+    public static async Task Main(string[] args)
+    {
+        try
         {
-            config.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
-                  .AddJsonFile("appsettings.docker.json", optional: true, reloadOnChange: true)
-                  .AddJsonFile("appsettings.Development.json", optional: true, reloadOnChange: true);
-        })
-        .UseNetDaemonAppSettings()
-        .UseNetDaemonDefaultLogging()
-        .UseNetDaemonRuntime()
-        .UseNetDaemonTextToSpeech()
-        .ConfigureServices((_, services) =>
-            services
-                .AddAppsFromAssembly(Assembly.GetExecutingAssembly())
-                .AddNetDaemonStateManager()
-                .AddNetDaemonScheduler()
-                .AddNewMoonNotifier()
-                .AddNetDaemonScheduler()
-                .AddHomeAssistantGenerated()
-        )
-        .Build()
-        .RunAsync()
-        .ConfigureAwait(false);
-}
-catch (Exception e)
-{
-    Console.WriteLine($"Failed to start host... {e}");
-    throw;
+            await Host.CreateDefaultBuilder(args)
+                .ConfigureAppConfiguration((context, config) =>
+                {
+                    config.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+                          .AddJsonFile("appsettings.docker.json", optional: true, reloadOnChange: true)
+                          .AddJsonFile("appsettings.Development.json", optional: true, reloadOnChange: true);
+                })
+                .UseNetDaemonAppSettings()
+                .UseNetDaemonDefaultLogging()
+                .UseNetDaemonRuntime()
+                .UseNetDaemonTextToSpeech()
+                .ConfigureServices((_, services) =>
+                    services
+                        .AddAppsFromAssembly(Assembly.GetExecutingAssembly())
+                        .AddNetDaemonStateManager()
+                        .AddNetDaemonScheduler()
+                        .AddNewMoonNotifier()
+                        .AddNetDaemonScheduler()
+                        .AddHomeAssistantGenerated()
+                )
+                .Build()
+                .RunAsync();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine($"Failed to start host... {e}");
+            throw;
+        }
+    }
 }
