@@ -6,6 +6,8 @@ appsettings.docker.json
 *.gen
 .idea
 #appsettings.json
+/publish/*
+/publish
 #HomeAssistantGenerated.cs
 .vscode/*
 !.vscode/settings.json
