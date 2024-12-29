@@ -6,12 +6,18 @@ using NetDaemon.Extensions.Tts;
 using NetDaemon.Runtime;
 using HomeAssistantGenerated;
 using HomeAssistantApps;
+using Microsoft.Extensions.Configuration;
 
 #pragma warning disable CA1812
 
 try
 {
     await Host.CreateDefaultBuilder(args)
+        .ConfigureAppConfiguration((context, config) =>
+        {
+            config.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+                  .AddJsonFile("appsettings.docker.json", optional: true, reloadOnChange: true);
+        })
         .UseNetDaemonAppSettings()
         .UseNetDaemonDefaultLogging()
         .UseNetDaemonRuntime()
