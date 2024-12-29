@@ -1,0 +1,5182 @@
+{
+  "domains": [
+    {
+      "domain": "light",
+      "entities": [
+        {
+          "id": "light.esp_cam01_light",
+          "friendlyName": "esp_cam01 light",
+          "cSharpName": "EspCam01Light"
+        },
+        {
+          "id": "light.espcam_02_light",
+          "friendlyName": "espcam_02 light",
+          "cSharpName": "Espcam02Light"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "supported_color_modes",
+          "cSharpName": "SupportedColorModes",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "color_mode",
+          "cSharpName": "ColorMode",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "min_color_temp_kelvin",
+          "cSharpName": "MinColorTempKelvin",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "max_color_temp_kelvin",
+          "cSharpName": "MaxColorTempKelvin",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "min_mireds",
+          "cSharpName": "MinMireds",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "max_mireds",
+          "cSharpName": "MaxMireds",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "brightness",
+          "cSharpName": "Brightness",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "color_temp_kelvin",
+          "cSharpName": "ColorTempKelvin",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "color_temp",
+          "cSharpName": "ColorTemp",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "hs_color",
+          "cSharpName": "HsColor",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.Double]"
+        },
+        {
+          "jsonName": "rgb_color",
+          "cSharpName": "RgbColor",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.Double]"
+        },
+        {
+          "jsonName": "xy_color",
+          "cSharpName": "XyColor",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.Double]"
+        },
+        {
+          "jsonName": "entity_id",
+          "cSharpName": "EntityId",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "effect_list",
+          "cSharpName": "EffectList",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "color",
+          "cSharpName": "Color",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "media_player",
+      "entities": [
+        {
+          "id": "media_player.henzard_kruger",
+          "friendlyName": "HENZARD-KRUGER",
+          "cSharpName": "HenzardKruger"
+        },
+        {
+          "id": "media_player.kws_one",
+          "friendlyName": "KWS-ONE",
+          "cSharpName": "KwsOne"
+        },
+        {
+          "id": "media_player.libreelec",
+          "friendlyName": "LibreELEC",
+          "cSharpName": "Libreelec"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "app_id",
+          "cSharpName": "AppId",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "app_name",
+          "cSharpName": "AppName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "device_class",
+          "cSharpName": "DeviceClass",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "entity_picture_local",
+          "cSharpName": "EntityPictureLocal",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "entity_picture",
+          "cSharpName": "EntityPicture",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "icon",
+          "cSharpName": "Icon",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "volume_level",
+          "cSharpName": "VolumeLevel",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "is_volume_muted",
+          "cSharpName": "IsVolumeMuted",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "media_content_id",
+          "cSharpName": "MediaContentId",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "media_content_type",
+          "cSharpName": "MediaContentType",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "media_duration",
+          "cSharpName": "MediaDuration",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "media_position",
+          "cSharpName": "MediaPosition",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "media_position_updated_at",
+          "cSharpName": "MediaPositionUpdatedAt",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "media_title",
+          "cSharpName": "MediaTitle",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "media_album_name",
+          "cSharpName": "MediaAlbumName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "media_image_url",
+          "cSharpName": "MediaImageUrl",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "media_artist",
+          "cSharpName": "MediaArtist",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "sound_mode_list",
+          "cSharpName": "SoundModeList",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "media_track",
+          "cSharpName": "MediaTrack",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "shuffle",
+          "cSharpName": "Shuffle",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "repeat",
+          "cSharpName": "Repeat",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "source_list",
+          "cSharpName": "SourceList",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "source",
+          "cSharpName": "Source",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "adb_response",
+          "cSharpName": "AdbResponse",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "hdmi_input",
+          "cSharpName": "HdmiInput",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "sound_mode",
+          "cSharpName": "SoundMode",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "sound_mode_raw",
+          "cSharpName": "SoundModeRaw",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "restored",
+          "cSharpName": "Restored",
+          "clrType": "System.Boolean"
+        }
+      ]
+    },
+    {
+      "domain": "automation",
+      "entities": [
+        {
+          "id": "automation.almost_new_moon",
+          "friendlyName": "Almost New Moon",
+          "cSharpName": "AlmostNewMoon"
+        },
+        {
+          "id": "automation.boorgat_10_min",
+          "friendlyName": "Boorgat 10 min",
+          "cSharpName": "Boorgat10Min"
+        },
+        {
+          "id": "automation.check_stress",
+          "friendlyName": "Check Stress",
+          "cSharpName": "CheckStress"
+        },
+        {
+          "id": "automation.home_assistant_auto_update_on_a_schedule_base",
+          "friendlyName": "Home Assistant Auto-update on a schedule base",
+          "cSharpName": "HomeAssistantAutoUpdateOnAScheduleBase"
+        },
+        {
+          "id": "automation.if_it_s_cold_turn_off_the_aircon",
+          "friendlyName": "If it\u0027s cold Turn off the aircon",
+          "cSharpName": "IfItSColdTurnOffTheAircon"
+        },
+        {
+          "id": "automation.water_the_plants",
+          "friendlyName": "Water the plants",
+          "cSharpName": "WaterThePlants"
+        },
+        {
+          "id": "automation.when_i_leave",
+          "friendlyName": "When I leave ",
+          "cSharpName": "WhenILeave"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "id",
+          "cSharpName": "Id",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "last_triggered",
+          "cSharpName": "LastTriggered",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "mode",
+          "cSharpName": "Mode",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "current",
+          "cSharpName": "Current",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "binary_sensor",
+      "entities": [
+        {
+          "id": "binary_sensor.backups_stale",
+          "friendlyName": "Backups Stale",
+          "cSharpName": "BackupsStale"
+        },
+        {
+          "id": "binary_sensor.henzard_kruger_pending_quest_invitation",
+          "friendlyName": "Henzard Kruger Pending quest invitation",
+          "cSharpName": "HenzardKrugerPendingQuestInvitation"
+        },
+        {
+          "id": "binary_sensor.kaelyn_s10_app_inactive",
+          "friendlyName": "Kaelyn S10 App inactive",
+          "cSharpName": "KaelynS10AppInactive"
+        },
+        {
+          "id": "binary_sensor.kaelyn_s10_bluetooth_state",
+          "friendlyName": "Kaelyn S10 Bluetooth state",
+          "cSharpName": "KaelynS10BluetoothState"
+        },
+        {
+          "id": "binary_sensor.kaelyn_s10_device_locked",
+          "friendlyName": "Kaelyn S10 Device locked",
+          "cSharpName": "KaelynS10DeviceLocked"
+        },
+        {
+          "id": "binary_sensor.kaelyn_s10_device_secure",
+          "friendlyName": "Kaelyn S10 Device secure",
+          "cSharpName": "KaelynS10DeviceSecure"
+        },
+        {
+          "id": "binary_sensor.kaelyn_s10_doze_mode",
+          "friendlyName": "Kaelyn S10 Doze mode",
+          "cSharpName": "KaelynS10DozeMode"
+        },
+        {
+          "id": "binary_sensor.kaelyn_s10_interactive",
+          "friendlyName": "Kaelyn S10 Interactive",
+          "cSharpName": "KaelynS10Interactive"
+        },
+        {
+          "id": "binary_sensor.kaelyn_s10_is_charging",
+          "friendlyName": "Kaelyn S10 Is charging",
+          "cSharpName": "KaelynS10IsCharging"
+        },
+        {
+          "id": "binary_sensor.kaelyn_s10_keyguard_locked",
+          "friendlyName": "Kaelyn S10 Keyguard locked",
+          "cSharpName": "KaelynS10KeyguardLocked"
+        },
+        {
+          "id": "binary_sensor.kaelyn_s10_keyguard_secure",
+          "friendlyName": "Kaelyn S10 Keyguard secure",
+          "cSharpName": "KaelynS10KeyguardSecure"
+        },
+        {
+          "id": "binary_sensor.kaelyn_s10_mobile_data",
+          "friendlyName": "Kaelyn S10 Mobile data",
+          "cSharpName": "KaelynS10MobileData"
+        },
+        {
+          "id": "binary_sensor.kaelyn_s10_mobile_data_roaming",
+          "friendlyName": "Kaelyn S10 Mobile data roaming",
+          "cSharpName": "KaelynS10MobileDataRoaming"
+        },
+        {
+          "id": "binary_sensor.kaelyn_s10_power_save",
+          "friendlyName": "Kaelyn S10 Power save",
+          "cSharpName": "KaelynS10PowerSave"
+        },
+        {
+          "id": "binary_sensor.kaelyn_s10_wifi_state",
+          "friendlyName": "Kaelyn S10 WiFi state",
+          "cSharpName": "KaelynS10WifiState"
+        },
+        {
+          "id": "binary_sensor.kaelyn_s10_work_profile",
+          "friendlyName": "Kaelyn S10 Work profile",
+          "cSharpName": "KaelynS10WorkProfile"
+        },
+        {
+          "id": "binary_sensor.rc522_rfid_tag",
+          "friendlyName": "RC522 RFID Tag",
+          "cSharpName": "Rc522RfidTag"
+        },
+        {
+          "id": "binary_sensor.rpi_power_status",
+          "friendlyName": "RPi Power status",
+          "cSharpName": "RpiPowerStatus"
+        },
+        {
+          "id": "binary_sensor.sm_s901e_android_auto",
+          "friendlyName": "SM-S901E Android Auto",
+          "cSharpName": "SmS901eAndroidAuto"
+        },
+        {
+          "id": "binary_sensor.sm_s901e_device_locked",
+          "friendlyName": "SM-S901E Device locked",
+          "cSharpName": "SmS901eDeviceLocked"
+        },
+        {
+          "id": "binary_sensor.sm_s901e_device_secure",
+          "friendlyName": "SM-S901E Device secure",
+          "cSharpName": "SmS901eDeviceSecure"
+        },
+        {
+          "id": "binary_sensor.sm_s901e_is_charging",
+          "friendlyName": "SM-S901E Is charging",
+          "cSharpName": "SmS901eIsCharging"
+        },
+        {
+          "id": "binary_sensor.sm_s901e_music_active",
+          "friendlyName": "SM-S901E Music active",
+          "cSharpName": "SmS901eMusicActive"
+        },
+        {
+          "id": "binary_sensor.tag_reader_rc522_rfid_tag",
+          "friendlyName": "RC522 RFID Tag",
+          "cSharpName": "TagReaderRc522RfidTag"
+        },
+        {
+          "id": "binary_sensor.workday_sensor",
+          "friendlyName": "Workday Sensor",
+          "cSharpName": "WorkdaySensor"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "device_class",
+          "cSharpName": "DeviceClass",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "icon",
+          "cSharpName": "Icon",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "connection_type",
+          "cSharpName": "ConnectionType",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "ignoring_battery_optimizations",
+          "cSharpName": "IgnoringBatteryOptimizations",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "workdays",
+          "cSharpName": "Workdays",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "excludes",
+          "cSharpName": "Excludes",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "days_offset",
+          "cSharpName": "DaysOffset",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "restored",
+          "cSharpName": "Restored",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        }
+      ]
+    },
+    {
+      "domain": "button",
+      "entities": [
+        {
+          "id": "button.action_for_node_red",
+          "friendlyName": "Action For Node Red",
+          "cSharpName": "ActionForNodeRed"
+        },
+        {
+          "id": "button.henzard_kruger_allocate_all_stat_points",
+          "friendlyName": "Henzard Kruger Allocate all stat points",
+          "cSharpName": "HenzardKrugerAllocateAllStatPoints"
+        },
+        {
+          "id": "button.henzard_kruger_blessing",
+          "friendlyName": "Henzard Kruger Blessing",
+          "cSharpName": "HenzardKrugerBlessing"
+        },
+        {
+          "id": "button.henzard_kruger_buy_a_health_potion",
+          "friendlyName": "Henzard Kruger Buy a health potion",
+          "cSharpName": "HenzardKrugerBuyAHealthPotion"
+        },
+        {
+          "id": "button.henzard_kruger_healing_light",
+          "friendlyName": "Henzard Kruger Healing light",
+          "cSharpName": "HenzardKrugerHealingLight"
+        },
+        {
+          "id": "button.henzard_kruger_hibernate",
+          "friendlyName": "_hibernate",
+          "cSharpName": "HenzardKrugerHibernate"
+        },
+        {
+          "id": "button.henzard_kruger_lock",
+          "friendlyName": "_lock",
+          "cSharpName": "HenzardKrugerLock"
+        },
+        {
+          "id": "button.henzard_kruger_protective_aura",
+          "friendlyName": "Henzard Kruger Protective aura",
+          "cSharpName": "HenzardKrugerProtectiveAura"
+        },
+        {
+          "id": "button.henzard_kruger_publishallsensors",
+          "friendlyName": "_publishallsensors",
+          "cSharpName": "HenzardKrugerPublishallsensors"
+        },
+        {
+          "id": "button.henzard_kruger_restart",
+          "friendlyName": "_restart",
+          "cSharpName": "HenzardKrugerRestart"
+        },
+        {
+          "id": "button.henzard_kruger_revive_from_death",
+          "friendlyName": "Henzard Kruger Revive from death",
+          "cSharpName": "HenzardKrugerReviveFromDeath"
+        },
+        {
+          "id": "button.henzard_kruger_searing_brightness",
+          "friendlyName": "Henzard Kruger Searing brightness",
+          "cSharpName": "HenzardKrugerSearingBrightness"
+        },
+        {
+          "id": "button.henzard_kruger_start_my_day",
+          "friendlyName": "Henzard Kruger Start my day",
+          "cSharpName": "HenzardKrugerStartMyDay"
+        },
+        {
+          "id": "button.henzard_kruger_webview",
+          "friendlyName": "_webview",
+          "cSharpName": "HenzardKrugerWebview"
+        },
+        {
+          "id": "button.kws_one_kws_one_hibernate",
+          "friendlyName": "KWS-ONE_hibernate",
+          "cSharpName": "KwsOneKwsOneHibernate"
+        },
+        {
+          "id": "button.kws_one_kws_one_launchurl",
+          "friendlyName": "KWS-ONE_launchurl",
+          "cSharpName": "KwsOneKwsOneLaunchurl"
+        },
+        {
+          "id": "button.kws_one_kws_one_lock",
+          "friendlyName": "KWS-ONE_lock",
+          "cSharpName": "KwsOneKwsOneLock"
+        },
+        {
+          "id": "button.kws_one_kws_one_setvolumeto10",
+          "friendlyName": "KWS-ONE_setvolumeto10",
+          "cSharpName": "KwsOneKwsOneSetvolumeto10"
+        },
+        {
+          "id": "button.kws_one_kws_one_setvolumeto100",
+          "friendlyName": "KWS-ONE_setvolumeto100",
+          "cSharpName": "KwsOneKwsOneSetvolumeto100"
+        },
+        {
+          "id": "button.kws_one_satellite_kws_one_satellite_hibernate",
+          "friendlyName": "KWS-ONE-satellite_hibernate",
+          "cSharpName": "KwsOneSatelliteKwsOneSatelliteHibernate"
+        },
+        {
+          "id": "button.kws_one_satellite_kws_one_satellite_sleep",
+          "friendlyName": "KWS-ONE-satellite_sleep",
+          "cSharpName": "KwsOneSatelliteKwsOneSatelliteSleep"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "entity_picture",
+          "cSharpName": "EntityPicture",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "restored",
+          "cSharpName": "Restored",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "device_class",
+          "cSharpName": "DeviceClass",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "calendar",
+      "entities": [
+        {
+          "id": "calendar.aliciakruger87_gmail_com",
+          "friendlyName": "Aliciakruger87@gmail.com",
+          "cSharpName": "Aliciakruger87GmailCom"
+        },
+        {
+          "id": "calendar.coursera_calendar_jan_hendrik_kruger_henzardkruger_gmail_com",
+          "friendlyName": "Coursera calendar - jan hendrik kruger - henzardkruger@gmail.com",
+          "cSharpName": "CourseraCalendarJanHendrikKrugerHenzardkrugerGmailCom"
+        },
+        {
+          "id": "calendar.events",
+          "friendlyName": "Events",
+          "cSharpName": "Events"
+        },
+        {
+          "id": "calendar.henzard_kruger",
+          "friendlyName": "Henzard kruger",
+          "cSharpName": "HenzardKruger"
+        },
+        {
+          "id": "calendar.henzard_kruger_dailies",
+          "friendlyName": "Henzard Kruger Dailies",
+          "cSharpName": "HenzardKrugerDailies"
+        },
+        {
+          "id": "calendar.henzard_kruger_daily_reminders",
+          "friendlyName": "Henzard Kruger Daily reminders",
+          "cSharpName": "HenzardKrugerDailyReminders"
+        },
+        {
+          "id": "calendar.henzard_kruger_to_do_reminders",
+          "friendlyName": "Henzard Kruger To-do reminders",
+          "cSharpName": "HenzardKrugerToDoReminders"
+        },
+        {
+          "id": "calendar.henzard_kruger_to_do_s",
+          "friendlyName": "Henzard Kruger To-Do\u0027s",
+          "cSharpName": "HenzardKrugerToDoS"
+        },
+        {
+          "id": "calendar.henzard_picahoo_co_za",
+          "friendlyName": "Henzard@picahoo.co.za",
+          "cSharpName": "HenzardPicahooCoZa"
+        },
+        {
+          "id": "calendar.holidays_in_south_africa",
+          "friendlyName": "Holidays in south africa",
+          "cSharpName": "HolidaysInSouthAfrica"
+        },
+        {
+          "id": "calendar.jewish_holidays",
+          "friendlyName": "Jewish holidays",
+          "cSharpName": "JewishHolidays"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "message",
+          "cSharpName": "Message",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "all_day",
+          "cSharpName": "AllDay",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "start_time",
+          "cSharpName": "StartTime",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "end_time",
+          "cSharpName": "EndTime",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "location",
+          "cSharpName": "Location",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "description",
+          "cSharpName": "Description",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "yesterdaily",
+          "cSharpName": "Yesterdaily",
+          "clrType": null
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "offset_reached",
+          "cSharpName": "OffsetReached",
+          "clrType": "System.Boolean"
+        }
+      ]
+    },
+    {
+      "domain": "camera",
+      "entities": [
+        {
+          "id": "camera.esp_cam01",
+          "friendlyName": "esp_cam01",
+          "cSharpName": "EspCam01"
+        },
+        {
+          "id": "camera.esp_cam02",
+          "friendlyName": "esp_cam02",
+          "cSharpName": "EspCam02"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "access_token",
+          "cSharpName": "AccessToken",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "entity_picture",
+          "cSharpName": "EntityPicture",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        }
+      ]
+    },
+    {
+      "domain": "climate",
+      "entities": [
+        {
+          "id": "climate.portable_air_conditioner",
+          "friendlyName": "Portable air conditioner",
+          "cSharpName": "PortableAirConditioner"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "hvac_modes",
+          "cSharpName": "HvacModes",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "min_temp",
+          "cSharpName": "MinTemp",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "max_temp",
+          "cSharpName": "MaxTemp",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "target_temp_step",
+          "cSharpName": "TargetTempStep",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "fan_modes",
+          "cSharpName": "FanModes",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "swing_modes",
+          "cSharpName": "SwingModes",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "current_temperature",
+          "cSharpName": "CurrentTemperature",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "temperature",
+          "cSharpName": "Temperature",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "fan_mode",
+          "cSharpName": "FanMode",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "swing_mode",
+          "cSharpName": "SwingMode",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        }
+      ]
+    },
+    {
+      "domain": "conversation",
+      "entities": [
+        {
+          "id": "conversation.google_generative_ai_conversation",
+          "friendlyName": "Google Generative AI Conversation",
+          "cSharpName": "GoogleGenerativeAiConversation"
+        },
+        {
+          "id": "conversation.home_assistant",
+          "friendlyName": "Home Assistant",
+          "cSharpName": "HomeAssistant"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        }
+      ]
+    },
+    {
+      "domain": "device_tracker",
+      "entities": [
+        {
+          "id": "device_tracker.galaxy_watch4_classic_75re",
+          "friendlyName": "Galaxy Watch4 Classic (75RE)",
+          "cSharpName": "GalaxyWatch4Classic75re"
+        },
+        {
+          "id": "device_tracker.henzard_samsungs22",
+          "friendlyName": null,
+          "cSharpName": "HenzardSamsungs22"
+        },
+        {
+          "id": "device_tracker.kaelyn_s10",
+          "friendlyName": "Kaelyn S10",
+          "cSharpName": "KaelynS10"
+        },
+        {
+          "id": "device_tracker.sm_s901e",
+          "friendlyName": "SM-S901E",
+          "cSharpName": "SmS901e"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "source_type",
+          "cSharpName": "SourceType",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "latitude",
+          "cSharpName": "Latitude",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "longitude",
+          "cSharpName": "Longitude",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "gps_accuracy",
+          "cSharpName": "GpsAccuracy",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "altitude",
+          "cSharpName": "Altitude",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "course",
+          "cSharpName": "Course",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "speed",
+          "cSharpName": "Speed",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "vertical_accuracy",
+          "cSharpName": "VerticalAccuracy",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "restored",
+          "cSharpName": "Restored",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        }
+      ]
+    },
+    {
+      "domain": "input_boolean",
+      "entities": [
+        {
+          "id": "input_boolean.calibration",
+          "friendlyName": "Calibration",
+          "cSharpName": "Calibration"
+        },
+        {
+          "id": "input_boolean.d_c_x_brush_teeth",
+          "friendlyName": "Brush Teeth",
+          "cSharpName": "DCXBrushTeeth"
+        },
+        {
+          "id": "input_boolean.d_c_x_morning_pills",
+          "friendlyName": "Morning Pills",
+          "cSharpName": "DCXMorningPills"
+        },
+        {
+          "id": "input_boolean.d_c_x_shower",
+          "friendlyName": "Shower",
+          "cSharpName": "DCXShower"
+        },
+        {
+          "id": "input_boolean.mortara_backlight_on",
+          "friendlyName": "mortara_backlight_on",
+          "cSharpName": "MortaraBacklightOn"
+        },
+        {
+          "id": "input_boolean.my_device_disable_sleep",
+          "friendlyName": "my_device_disable_sleep",
+          "cSharpName": "MyDeviceDisableSleep"
+        },
+        {
+          "id": "input_boolean.ordered",
+          "friendlyName": "Ordered",
+          "cSharpName": "Ordered"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "editable",
+          "cSharpName": "Editable",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "icon",
+          "cSharpName": "Icon",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "input_button",
+      "entities": [
+        {
+          "id": "input_button.rained",
+          "friendlyName": "Rained",
+          "cSharpName": "Rained"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "editable",
+          "cSharpName": "Editable",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "icon",
+          "cSharpName": "Icon",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "input_number",
+      "isNumeric": true,
+      "entities": [
+        {
+          "id": "input_number.total_in_tank",
+          "friendlyName": "Total in Tank",
+          "cSharpName": "TotalInTank"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "initial",
+          "cSharpName": "Initial",
+          "clrType": null
+        },
+        {
+          "jsonName": "editable",
+          "cSharpName": "Editable",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "min",
+          "cSharpName": "Min",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "max",
+          "cSharpName": "Max",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "step",
+          "cSharpName": "Step",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "mode",
+          "cSharpName": "Mode",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "input_text",
+      "entities": [
+        {
+          "id": "input_text.amount_in_ml",
+          "friendlyName": "Amount in ml",
+          "cSharpName": "AmountInMl"
+        },
+        {
+          "id": "input_text.daily_deaths",
+          "friendlyName": "Daily Deaths",
+          "cSharpName": "DailyDeaths"
+        },
+        {
+          "id": "input_text.daily_house_checks",
+          "friendlyName": "Daily House Checks",
+          "cSharpName": "DailyHouseChecks"
+        },
+        {
+          "id": "input_text.deep_sleep_sleep",
+          "friendlyName": "deep_sleep_sleep",
+          "cSharpName": "DeepSleepSleep"
+        },
+        {
+          "id": "input_text.deep_sleep_wake",
+          "friendlyName": "deep_sleep_wake",
+          "cSharpName": "DeepSleepWake"
+        },
+        {
+          "id": "input_text.display_text",
+          "friendlyName": "display_text",
+          "cSharpName": "DisplayText"
+        },
+        {
+          "id": "input_text.food_delivery_dates",
+          "friendlyName": "Food Delivery Dates",
+          "cSharpName": "FoodDeliveryDates"
+        },
+        {
+          "id": "input_text.food_ordered",
+          "friendlyName": "Food Ordered",
+          "cSharpName": "FoodOrdered"
+        },
+        {
+          "id": "input_text.medicine_given",
+          "friendlyName": "Medicine Given",
+          "cSharpName": "MedicineGiven"
+        },
+        {
+          "id": "input_text.notification_display_l1",
+          "friendlyName": "notification_display_l1",
+          "cSharpName": "NotificationDisplayL1"
+        },
+        {
+          "id": "input_text.notification_display_l2",
+          "friendlyName": "notification_display_l2",
+          "cSharpName": "NotificationDisplayL2"
+        },
+        {
+          "id": "input_text.set_tank_level",
+          "friendlyName": "Set Tank Level",
+          "cSharpName": "SetTankLevel"
+        },
+        {
+          "id": "input_text.threshold",
+          "friendlyName": "Threshold",
+          "cSharpName": "Threshold"
+        },
+        {
+          "id": "input_text.ttgo_text",
+          "friendlyName": "TTGO Text",
+          "cSharpName": "TtgoText"
+        },
+        {
+          "id": "input_text.whatsapp_test",
+          "friendlyName": "whatsapp_test",
+          "cSharpName": "WhatsappTest"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "editable",
+          "cSharpName": "Editable",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "min",
+          "cSharpName": "Min",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "max",
+          "cSharpName": "Max",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "pattern",
+          "cSharpName": "Pattern",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "mode",
+          "cSharpName": "Mode",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "icon",
+          "cSharpName": "Icon",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "person",
+      "entities": [
+        {
+          "id": "person.alicia",
+          "friendlyName": "Alicia Kruger",
+          "cSharpName": "Alicia"
+        },
+        {
+          "id": "person.henzard_kruger",
+          "friendlyName": "Henzard Kruger",
+          "cSharpName": "HenzardKruger"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "editable",
+          "cSharpName": "Editable",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "id",
+          "cSharpName": "Id",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "device_trackers",
+          "cSharpName": "DeviceTrackers",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "latitude",
+          "cSharpName": "Latitude",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "longitude",
+          "cSharpName": "Longitude",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "gps_accuracy",
+          "cSharpName": "GpsAccuracy",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "source",
+          "cSharpName": "Source",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "user_id",
+          "cSharpName": "UserId",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "schedule",
+      "entities": [
+        {
+          "id": "schedule.update_schedule",
+          "friendlyName": "Update Schedule",
+          "cSharpName": "UpdateSchedule"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "editable",
+          "cSharpName": "Editable",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "next_event",
+          "cSharpName": "NextEvent",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "script",
+      "entities": [
+        {
+          "id": "script.fetch_device_info",
+          "friendlyName": "fetch_device_info",
+          "cSharpName": "FetchDeviceInfo"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "last_triggered",
+          "cSharpName": "LastTriggered",
+          "clrType": null
+        },
+        {
+          "jsonName": "mode",
+          "cSharpName": "Mode",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "current",
+          "cSharpName": "Current",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "select",
+      "entities": [
+        {
+          "id": "select.boorgat_power_on_behaviour",
+          "friendlyName": "Boorgat Power on behaviour",
+          "cSharpName": "BoorgatPowerOnBehaviour"
+        },
+        {
+          "id": "select.geyser_power_on_behaviour",
+          "friendlyName": "Geyser  Power on behaviour",
+          "cSharpName": "GeyserPowerOnBehaviour"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "options",
+          "cSharpName": "Options",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "sensor",
+      "entities": [
+        {
+          "id": "sensor.backup_state",
+          "friendlyName": "Backup State",
+          "cSharpName": "BackupState"
+        },
+        {
+          "id": "sensor.bloemfontein_moon_high",
+          "friendlyName": "Bloemfontein Moon High",
+          "cSharpName": "BloemfonteinMoonHigh"
+        },
+        {
+          "id": "sensor.bloemfontein_moon_phase",
+          "friendlyName": "Bloemfontein Moon Phase",
+          "cSharpName": "BloemfonteinMoonPhase"
+        },
+        {
+          "id": "sensor.bloemfontein_moon_rise",
+          "friendlyName": "Bloemfontein Moon Rise",
+          "cSharpName": "BloemfonteinMoonRise"
+        },
+        {
+          "id": "sensor.bloemfontein_moon_set",
+          "friendlyName": "Bloemfontein Moon Set",
+          "cSharpName": "BloemfonteinMoonSet"
+        },
+        {
+          "id": "sensor.bloemfontein_next_first_quarter",
+          "friendlyName": "Bloemfontein Next First Quarter",
+          "cSharpName": "BloemfonteinNextFirstQuarter"
+        },
+        {
+          "id": "sensor.bloemfontein_next_full_moon",
+          "friendlyName": "Bloemfontein Next Full Moon",
+          "cSharpName": "BloemfonteinNextFullMoon"
+        },
+        {
+          "id": "sensor.bloemfontein_next_moon_phase",
+          "friendlyName": "Bloemfontein Next Moon Phase",
+          "cSharpName": "BloemfonteinNextMoonPhase"
+        },
+        {
+          "id": "sensor.bloemfontein_next_new_moon",
+          "friendlyName": "Bloemfontein Next New Moon",
+          "cSharpName": "BloemfonteinNextNewMoon"
+        },
+        {
+          "id": "sensor.bloemfontein_next_third_quarter",
+          "friendlyName": "Bloemfontein Next Third Quarter",
+          "cSharpName": "BloemfonteinNextThirdQuarter"
+        },
+        {
+          "id": "sensor.friendly_devicename_bssid",
+          "friendlyName": "water-pump BSSID",
+          "cSharpName": "FriendlyDevicenameBssid"
+        },
+        {
+          "id": "sensor.friendly_devicename_dns_address",
+          "friendlyName": "water-pump DNS Address",
+          "cSharpName": "FriendlyDevicenameDnsAddress"
+        },
+        {
+          "id": "sensor.friendly_devicename_ip_address",
+          "friendlyName": "water-pump IP Address",
+          "cSharpName": "FriendlyDevicenameIpAddress"
+        },
+        {
+          "id": "sensor.friendly_devicename_latest_scan_results",
+          "friendlyName": "water-pump Latest Scan Results",
+          "cSharpName": "FriendlyDevicenameLatestScanResults"
+        },
+        {
+          "id": "sensor.friendly_devicename_mac_wifi_address",
+          "friendlyName": "water-pump Mac Wifi Address",
+          "cSharpName": "FriendlyDevicenameMacWifiAddress"
+        },
+        {
+          "id": "sensor.friendly_devicename_ssid",
+          "friendlyName": "water-pump SSID",
+          "cSharpName": "FriendlyDevicenameSsid"
+        },
+        {
+          "id": "sensor.galaxy_watch4_classic_75re_battery_state",
+          "friendlyName": "Galaxy Watch4 Classic (75RE) Battery state",
+          "cSharpName": "GalaxyWatch4Classic75reBatteryState"
+        },
+        {
+          "id": "sensor.galaxy_watch4_classic_75re_charger_type",
+          "friendlyName": "Galaxy Watch4 Classic (75RE) Charger type",
+          "cSharpName": "GalaxyWatch4Classic75reChargerType"
+        },
+        {
+          "id": "sensor.heart_points_daily",
+          "friendlyName": "Heart Points Daily",
+          "cSharpName": "HeartPointsDaily"
+        },
+        {
+          "id": "sensor.henzard_kruger_activewindow",
+          "friendlyName": "_activewindow",
+          "cSharpName": "HenzardKrugerActivewindow"
+        },
+        {
+          "id": "sensor.henzard_kruger_battery_charge_remaining",
+          "friendlyName": "_battery Charge Remaining",
+          "cSharpName": "HenzardKrugerBatteryChargeRemaining"
+        },
+        {
+          "id": "sensor.henzard_kruger_battery_charge_status",
+          "friendlyName": "_battery Charge Status",
+          "cSharpName": "HenzardKrugerBatteryChargeStatus"
+        },
+        {
+          "id": "sensor.henzard_kruger_battery_full_charge_lifetime",
+          "friendlyName": "_battery Full Charge Lifetime",
+          "cSharpName": "HenzardKrugerBatteryFullChargeLifetime"
+        },
+        {
+          "id": "sensor.henzard_kruger_battery_powerline_status",
+          "friendlyName": "_battery Powerline Status",
+          "cSharpName": "HenzardKrugerBatteryPowerlineStatus"
+        },
+        {
+          "id": "sensor.henzard_kruger_class",
+          "friendlyName": "Henzard Kruger Class",
+          "cSharpName": "HenzardKrugerClass"
+        },
+        {
+          "id": "sensor.henzard_kruger_display_name",
+          "friendlyName": "Henzard Kruger Display name",
+          "cSharpName": "HenzardKrugerDisplayName"
+        },
+        {
+          "id": "sensor.henzard_kruger_lastactive",
+          "friendlyName": "_lastactive",
+          "cSharpName": "HenzardKrugerLastactive"
+        },
+        {
+          "id": "sensor.henzard_kruger_lastboot",
+          "friendlyName": "_lastboot",
+          "cSharpName": "HenzardKrugerLastboot"
+        },
+        {
+          "id": "sensor.henzard_kruger_level",
+          "friendlyName": "Henzard Kruger Level",
+          "cSharpName": "HenzardKrugerLevel"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_bluetooth_network_connection",
+          "friendlyName": "_network Bluetooth Network Connection",
+          "cSharpName": "HenzardKrugerNetworkBluetoothNetworkConnection"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_ethernet",
+          "friendlyName": "_network Ethernet",
+          "cSharpName": "HenzardKrugerNetworkEthernet"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_hamachi",
+          "friendlyName": "_network Hamachi",
+          "cSharpName": "HenzardKrugerNetworkHamachi"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_local_area_connection",
+          "friendlyName": "_network Local Area Connection",
+          "cSharpName": "HenzardKrugerNetworkLocalAreaConnection"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_local_area_connection_1",
+          "friendlyName": "_network Local Area Connection* 1",
+          "cSharpName": "HenzardKrugerNetworkLocalAreaConnection1"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_local_area_connection_2",
+          "friendlyName": "_network Local Area Connection* 2",
+          "cSharpName": "HenzardKrugerNetworkLocalAreaConnection2"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_local_area_connection_4",
+          "friendlyName": "_network Local Area Connection",
+          "cSharpName": "HenzardKrugerNetworkLocalAreaConnection4"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_loopback_pseudo_interface_1",
+          "friendlyName": "_network Loopback Pseudo-Interface 1",
+          "cSharpName": "HenzardKrugerNetworkLoopbackPseudoInterface1"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_network_card_count",
+          "friendlyName": "_network Network Card Count",
+          "cSharpName": "HenzardKrugerNetworkNetworkCardCount"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_tailscale",
+          "friendlyName": "_network Tailscale",
+          "cSharpName": "HenzardKrugerNetworkTailscale"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_vethernet_default_switch",
+          "friendlyName": "_network vEthernet (Default Switch)",
+          "cSharpName": "HenzardKrugerNetworkVethernetDefaultSwitch"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_vethernet_default_switch_2",
+          "friendlyName": "_network vEthernet (Default Switch)",
+          "cSharpName": "HenzardKrugerNetworkVethernetDefaultSwitch2"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_vethernet_default_switch_3",
+          "friendlyName": "_network vEthernet (Default Switch)",
+          "cSharpName": "HenzardKrugerNetworkVethernetDefaultSwitch3"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_vethernet_default_switch_4",
+          "friendlyName": "_network vEthernet (Default Switch)",
+          "cSharpName": "HenzardKrugerNetworkVethernetDefaultSwitch4"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_vethernet_default_switch_68",
+          "friendlyName": "_network vEthernet (Default Switch)",
+          "cSharpName": "HenzardKrugerNetworkVethernetDefaultSwitch68"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_vethernet_default_switch_69",
+          "friendlyName": "_network vEthernet (Default Switch)",
+          "cSharpName": "HenzardKrugerNetworkVethernetDefaultSwitch69"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_vethernet_default_switch_70",
+          "friendlyName": "_network vEthernet (Default Switch)",
+          "cSharpName": "HenzardKrugerNetworkVethernetDefaultSwitch70"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_vethernet_default_switch_71",
+          "friendlyName": "_network vEthernet (Default Switch)",
+          "cSharpName": "HenzardKrugerNetworkVethernetDefaultSwitch71"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_vethernet_default_switch_72",
+          "friendlyName": "_network vEthernet (Default Switch)",
+          "cSharpName": "HenzardKrugerNetworkVethernetDefaultSwitch72"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_vethernet_default_switch_73",
+          "friendlyName": "_network vEthernet (Default Switch)",
+          "cSharpName": "HenzardKrugerNetworkVethernetDefaultSwitch73"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_vethernet_default_switch_74",
+          "friendlyName": "_network vEthernet (Default Switch)",
+          "cSharpName": "HenzardKrugerNetworkVethernetDefaultSwitch74"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_vethernet_default_switch_75",
+          "friendlyName": "_network vEthernet (Default Switch)",
+          "cSharpName": "HenzardKrugerNetworkVethernetDefaultSwitch75"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_vethernet_default_switch_76",
+          "friendlyName": "_network vEthernet (Default Switch)",
+          "cSharpName": "HenzardKrugerNetworkVethernetDefaultSwitch76"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_vethernet_default_switch_77",
+          "friendlyName": "_network vEthernet (Default Switch)",
+          "cSharpName": "HenzardKrugerNetworkVethernetDefaultSwitch77"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_vethernet_wsl",
+          "friendlyName": "_network vEthernet (WSL)",
+          "cSharpName": "HenzardKrugerNetworkVethernetWsl"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_vethernet_wsl_23",
+          "friendlyName": "_network vEthernet (WSL)",
+          "cSharpName": "HenzardKrugerNetworkVethernetWsl23"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_vethernet_wsl_24",
+          "friendlyName": "_network vEthernet (WSL)",
+          "cSharpName": "HenzardKrugerNetworkVethernetWsl24"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_vethernet_wsl_25",
+          "friendlyName": "_network vEthernet (WSL)",
+          "cSharpName": "HenzardKrugerNetworkVethernetWsl25"
+        },
+        {
+          "id": "sensor.henzard_kruger_network_wi_fi",
+          "friendlyName": "_network Wi-Fi",
+          "cSharpName": "HenzardKrugerNetworkWiFi"
+        },
+        {
+          "id": "sensor.henzard_kruger_usernotification",
+          "friendlyName": "_usernotification",
+          "cSharpName": "HenzardKrugerUsernotification"
+        },
+        {
+          "id": "sensor.henzard_kruger_webcamprocess",
+          "friendlyName": "_webcamprocess",
+          "cSharpName": "HenzardKrugerWebcamprocess"
+        },
+        {
+          "id": "sensor.home_air_quality_day_1",
+          "friendlyName": "Home Air quality day 1",
+          "cSharpName": "HomeAirQualityDay1"
+        },
+        {
+          "id": "sensor.home_air_quality_day_2",
+          "friendlyName": "Home Air quality day 2",
+          "cSharpName": "HomeAirQualityDay2"
+        },
+        {
+          "id": "sensor.home_air_quality_day_3",
+          "friendlyName": "Home Air quality day 3",
+          "cSharpName": "HomeAirQualityDay3"
+        },
+        {
+          "id": "sensor.home_air_quality_day_4",
+          "friendlyName": "Home Air quality day 4",
+          "cSharpName": "HomeAirQualityDay4"
+        },
+        {
+          "id": "sensor.home_air_quality_today",
+          "friendlyName": "Home Air quality day 0",
+          "cSharpName": "HomeAirQualityToday"
+        },
+        {
+          "id": "sensor.home_condition_day_1",
+          "friendlyName": "Home Condition day 1",
+          "cSharpName": "HomeConditionDay1"
+        },
+        {
+          "id": "sensor.home_condition_day_2",
+          "friendlyName": "Home Condition day 2",
+          "cSharpName": "HomeConditionDay2"
+        },
+        {
+          "id": "sensor.home_condition_day_3",
+          "friendlyName": "Home Condition day 3",
+          "cSharpName": "HomeConditionDay3"
+        },
+        {
+          "id": "sensor.home_condition_day_4",
+          "friendlyName": "Home Condition day 4",
+          "cSharpName": "HomeConditionDay4"
+        },
+        {
+          "id": "sensor.home_condition_night_1",
+          "friendlyName": "Home Condition night 1",
+          "cSharpName": "HomeConditionNight1"
+        },
+        {
+          "id": "sensor.home_condition_night_2",
+          "friendlyName": "Home Condition night 2",
+          "cSharpName": "HomeConditionNight2"
+        },
+        {
+          "id": "sensor.home_condition_night_3",
+          "friendlyName": "Home Condition night 3",
+          "cSharpName": "HomeConditionNight3"
+        },
+        {
+          "id": "sensor.home_condition_night_4",
+          "friendlyName": "Home Condition night 4",
+          "cSharpName": "HomeConditionNight4"
+        },
+        {
+          "id": "sensor.home_condition_today",
+          "friendlyName": "Home Condition day 0",
+          "cSharpName": "HomeConditionToday"
+        },
+        {
+          "id": "sensor.home_condition_tonight",
+          "friendlyName": "Home Condition night 0",
+          "cSharpName": "HomeConditionTonight"
+        },
+        {
+          "id": "sensor.home_pressure_tendency",
+          "friendlyName": "Home Pressure tendency",
+          "cSharpName": "HomePressureTendency"
+        },
+        {
+          "id": "sensor.internet_gateway_device_external_ip",
+          "friendlyName": "Internet Gateway Device External IP",
+          "cSharpName": "InternetGatewayDeviceExternalIp"
+        },
+        {
+          "id": "sensor.ipv4_address_eth0",
+          "friendlyName": "IPv4 address eth0",
+          "cSharpName": "Ipv4AddressEth0"
+        },
+        {
+          "id": "sensor.ipv6_address_eth0",
+          "friendlyName": "IPv6 address eth0",
+          "cSharpName": "Ipv6AddressEth0"
+        },
+        {
+          "id": "sensor.kaelyn_s10_app_importance",
+          "friendlyName": "Kaelyn S10 App importance",
+          "cSharpName": "KaelynS10AppImportance"
+        },
+        {
+          "id": "sensor.kaelyn_s10_app_standby_bucket",
+          "friendlyName": "Kaelyn S10 App standby bucket",
+          "cSharpName": "KaelynS10AppStandbyBucket"
+        },
+        {
+          "id": "sensor.kaelyn_s10_battery_health",
+          "friendlyName": "Kaelyn S10 Battery health",
+          "cSharpName": "KaelynS10BatteryHealth"
+        },
+        {
+          "id": "sensor.kaelyn_s10_battery_state",
+          "friendlyName": "Kaelyn S10 Battery state",
+          "cSharpName": "KaelynS10BatteryState"
+        },
+        {
+          "id": "sensor.kaelyn_s10_ble_transmitter",
+          "friendlyName": "Kaelyn S10 BLE transmitter",
+          "cSharpName": "KaelynS10BleTransmitter"
+        },
+        {
+          "id": "sensor.kaelyn_s10_charger_type",
+          "friendlyName": "Kaelyn S10 Charger type",
+          "cSharpName": "KaelynS10ChargerType"
+        },
+        {
+          "id": "sensor.kaelyn_s10_current_time_zone",
+          "friendlyName": "Kaelyn S10 Current time zone",
+          "cSharpName": "KaelynS10CurrentTimeZone"
+        },
+        {
+          "id": "sensor.kaelyn_s10_current_version",
+          "friendlyName": "Kaelyn S10 Current version",
+          "cSharpName": "KaelynS10CurrentVersion"
+        },
+        {
+          "id": "sensor.kaelyn_s10_detected_activity",
+          "friendlyName": "Kaelyn S10 Detected activity",
+          "cSharpName": "KaelynS10DetectedActivity"
+        },
+        {
+          "id": "sensor.kaelyn_s10_do_not_disturb_sensor",
+          "friendlyName": "Kaelyn S10 Do Not Disturb sensor",
+          "cSharpName": "KaelynS10DoNotDisturbSensor"
+        },
+        {
+          "id": "sensor.kaelyn_s10_geocoded_location",
+          "friendlyName": "Kaelyn S10 Geocoded location",
+          "cSharpName": "KaelynS10GeocodedLocation"
+        },
+        {
+          "id": "sensor.kaelyn_s10_last_notification",
+          "friendlyName": "Kaelyn S10 Last notification",
+          "cSharpName": "KaelynS10LastNotification"
+        },
+        {
+          "id": "sensor.kaelyn_s10_last_reboot",
+          "friendlyName": "Kaelyn S10 Last reboot",
+          "cSharpName": "KaelynS10LastReboot"
+        },
+        {
+          "id": "sensor.kaelyn_s10_last_removed_notification",
+          "friendlyName": "Kaelyn S10 Last removed notification",
+          "cSharpName": "KaelynS10LastRemovedNotification"
+        },
+        {
+          "id": "sensor.kaelyn_s10_last_update_trigger",
+          "friendlyName": "Kaelyn S10 Last update trigger",
+          "cSharpName": "KaelynS10LastUpdateTrigger"
+        },
+        {
+          "id": "sensor.kaelyn_s10_media_session",
+          "friendlyName": "Kaelyn S10 Media session",
+          "cSharpName": "KaelynS10MediaSession"
+        },
+        {
+          "id": "sensor.kaelyn_s10_next_alarm",
+          "friendlyName": "Kaelyn S10 Next alarm",
+          "cSharpName": "KaelynS10NextAlarm"
+        },
+        {
+          "id": "sensor.kaelyn_s10_phone_state",
+          "friendlyName": "Kaelyn S10 Phone state",
+          "cSharpName": "KaelynS10PhoneState"
+        },
+        {
+          "id": "sensor.kaelyn_s10_proximity_sensor",
+          "friendlyName": "Kaelyn S10 Proximity sensor",
+          "cSharpName": "KaelynS10ProximitySensor"
+        },
+        {
+          "id": "sensor.kaelyn_s10_public_ip_address",
+          "friendlyName": "Kaelyn S10 Public IP address",
+          "cSharpName": "KaelynS10PublicIpAddress"
+        },
+        {
+          "id": "sensor.kaelyn_s10_ringer_mode",
+          "friendlyName": "Kaelyn S10 Ringer mode",
+          "cSharpName": "KaelynS10RingerMode"
+        },
+        {
+          "id": "sensor.kaelyn_s10_sim_1",
+          "friendlyName": "Kaelyn S10 SIM 1",
+          "cSharpName": "KaelynS10Sim1"
+        },
+        {
+          "id": "sensor.kaelyn_s10_sim_2",
+          "friendlyName": "Kaelyn S10 SIM 2",
+          "cSharpName": "KaelynS10Sim2"
+        },
+        {
+          "id": "sensor.kaelyn_s10_volume_level_alarm",
+          "friendlyName": "Kaelyn S10 Volume level alarm",
+          "cSharpName": "KaelynS10VolumeLevelAlarm"
+        },
+        {
+          "id": "sensor.kaelyn_s10_volume_level_call",
+          "friendlyName": "Kaelyn S10 Volume level call",
+          "cSharpName": "KaelynS10VolumeLevelCall"
+        },
+        {
+          "id": "sensor.kaelyn_s10_volume_level_music",
+          "friendlyName": "Kaelyn S10 Volume level music",
+          "cSharpName": "KaelynS10VolumeLevelMusic"
+        },
+        {
+          "id": "sensor.kaelyn_s10_volume_level_ringer",
+          "friendlyName": "Kaelyn S10 Volume level ringer",
+          "cSharpName": "KaelynS10VolumeLevelRinger"
+        },
+        {
+          "id": "sensor.kaelyn_s10_wifi_bssid",
+          "friendlyName": "Kaelyn S10 WiFi BSSID",
+          "cSharpName": "KaelynS10WifiBssid"
+        },
+        {
+          "id": "sensor.kaelyn_s10_wifi_connection",
+          "friendlyName": "Kaelyn S10 WiFi connection",
+          "cSharpName": "KaelynS10WifiConnection"
+        },
+        {
+          "id": "sensor.kaelyn_s10_wifi_ip_address",
+          "friendlyName": "Kaelyn S10 WiFi IP address",
+          "cSharpName": "KaelynS10WifiIpAddress"
+        },
+        {
+          "id": "sensor.kws_one_kws_one_battery_charge_remaining",
+          "friendlyName": "KWS-ONE_battery Charge Remaining",
+          "cSharpName": "KwsOneKwsOneBatteryChargeRemaining"
+        },
+        {
+          "id": "sensor.kws_one_kws_one_battery_charge_status",
+          "friendlyName": "KWS-ONE_battery Charge Status",
+          "cSharpName": "KwsOneKwsOneBatteryChargeStatus"
+        },
+        {
+          "id": "sensor.kws_one_kws_one_battery_full_charge_lifetime",
+          "friendlyName": "KWS-ONE_battery Full Charge Lifetime",
+          "cSharpName": "KwsOneKwsOneBatteryFullChargeLifetime"
+        },
+        {
+          "id": "sensor.kws_one_kws_one_battery_powerline_status",
+          "friendlyName": "KWS-ONE_battery Powerline Status",
+          "cSharpName": "KwsOneKwsOneBatteryPowerlineStatus"
+        },
+        {
+          "id": "sensor.kws_one_kws_one_display_display_count",
+          "friendlyName": "KWS-ONE_display Display Count",
+          "cSharpName": "KwsOneKwsOneDisplayDisplayCount"
+        },
+        {
+          "id": "sensor.kws_one_kws_one_display_display1",
+          "friendlyName": "KWS-ONE_display DISPLAY1",
+          "cSharpName": "KwsOneKwsOneDisplayDisplay1"
+        },
+        {
+          "id": "sensor.kws_one_kws_one_display_display2",
+          "friendlyName": "KWS-ONE_display DISPLAY2",
+          "cSharpName": "KwsOneKwsOneDisplayDisplay2"
+        },
+        {
+          "id": "sensor.kws_one_kws_one_display_display5",
+          "friendlyName": "KWS-ONE_display DISPLAY5",
+          "cSharpName": "KwsOneKwsOneDisplayDisplay5"
+        },
+        {
+          "id": "sensor.kws_one_kws_one_display_display6",
+          "friendlyName": "KWS-ONE_display DISPLAY6",
+          "cSharpName": "KwsOneKwsOneDisplayDisplay6"
+        },
+        {
+          "id": "sensor.kws_one_kws_one_display_primary_display",
+          "friendlyName": "KWS-ONE_display Primary Display",
+          "cSharpName": "KwsOneKwsOneDisplayPrimaryDisplay"
+        },
+        {
+          "id": "sensor.kws_one_kws_one_lastactive",
+          "friendlyName": "KWS-ONE_lastactive",
+          "cSharpName": "KwsOneKwsOneLastactive"
+        },
+        {
+          "id": "sensor.kws_one_kws_one_lastboot",
+          "friendlyName": "KWS-ONE_lastboot",
+          "cSharpName": "KwsOneKwsOneLastboot"
+        },
+        {
+          "id": "sensor.kws_one_kws_one_network_bluetooth_network_connection",
+          "friendlyName": "KWS-ONE_network Bluetooth Network Connection",
+          "cSharpName": "KwsOneKwsOneNetworkBluetoothNetworkConnection"
+        },
+        {
+          "id": "sensor.kws_one_kws_one_network_hamachi",
+          "friendlyName": "KWS-ONE_network Hamachi",
+          "cSharpName": "KwsOneKwsOneNetworkHamachi"
+        },
+        {
+          "id": "sensor.kws_one_kws_one_network_local_area_connection_1",
+          "friendlyName": "KWS-ONE_network Local Area Connection* 1",
+          "cSharpName": "KwsOneKwsOneNetworkLocalAreaConnection1"
+        },
+        {
+          "id": "sensor.kws_one_kws_one_network_local_area_connection_2",
+          "friendlyName": "KWS-ONE_network Local Area Connection* 2",
+          "cSharpName": "KwsOneKwsOneNetworkLocalAreaConnection2"
+        },
+        {
+          "id": "sensor.kws_one_kws_one_network_loopback_pseudo_interface_1",
+          "friendlyName": "KWS-ONE_network Loopback Pseudo-Interface 1",
+          "cSharpName": "KwsOneKwsOneNetworkLoopbackPseudoInterface1"
+        },
+        {
+          "id": "sensor.kws_one_kws_one_network_network_card_count",
+          "friendlyName": "KWS-ONE_network Network Card Count",
+          "cSharpName": "KwsOneKwsOneNetworkNetworkCardCount"
+        },
+        {
+          "id": "sensor.kws_one_kws_one_network_tailscale",
+          "friendlyName": "KWS-ONE_network Tailscale",
+          "cSharpName": "KwsOneKwsOneNetworkTailscale"
+        },
+        {
+          "id": "sensor.kws_one_kws_one_network_vethernet_wsl_hyper_v_firewall",
+          "friendlyName": "KWS-ONE_network vEthernet (WSL (Hyper-V firewall))",
+          "cSharpName": "KwsOneKwsOneNetworkVethernetWslHyperVFirewall"
+        },
+        {
+          "id": "sensor.kws_one_kws_one_network_vethernet_wsl_hyper_v_firewall_2",
+          "friendlyName": "KWS-ONE_network vEthernet (WSL (Hyper-V firewall))",
+          "cSharpName": "KwsOneKwsOneNetworkVethernetWslHyperVFirewall2"
+        },
+        {
+          "id": "sensor.kws_one_kws_one_network_wi_fi",
+          "friendlyName": "KWS-ONE_network Wi-Fi",
+          "cSharpName": "KwsOneKwsOneNetworkWiFi"
+        },
+        {
+          "id": "sensor.kws_one_kws_one_sessionstate",
+          "friendlyName": "KWS-ONE_sessionstate",
+          "cSharpName": "KwsOneKwsOneSessionstate"
+        },
+        {
+          "id": "sensor.kws_one_kws_one_storage_c",
+          "friendlyName": "KWS-ONE_storage C",
+          "cSharpName": "KwsOneKwsOneStorageC"
+        },
+        {
+          "id": "sensor.kws_one_kws_one_storage_total_disk_count",
+          "friendlyName": "KWS-ONE_storage Total Disk Count",
+          "cSharpName": "KwsOneKwsOneStorageTotalDiskCount"
+        },
+        {
+          "id": "sensor.last_boot",
+          "friendlyName": "System Monitor Last boot",
+          "cSharpName": "LastBoot"
+        },
+        {
+          "id": "sensor.liters_instance",
+          "friendlyName": "Liters Instance",
+          "cSharpName": "LitersInstance"
+        },
+        {
+          "id": "sensor.load_15m",
+          "friendlyName": "System Monitor Load (15m)",
+          "cSharpName": "Load15m"
+        },
+        {
+          "id": "sensor.load_1m",
+          "friendlyName": "System Monitor Load (1m)",
+          "cSharpName": "Load1m"
+        },
+        {
+          "id": "sensor.load_5m",
+          "friendlyName": "System Monitor Load (5m)",
+          "cSharpName": "Load5m"
+        },
+        {
+          "id": "sensor.loadshedding",
+          "friendlyName": "Loadshedding",
+          "cSharpName": "Loadshedding"
+        },
+        {
+          "id": "sensor.loadshedding_stage",
+          "friendlyName": "loadshedding Stage",
+          "cSharpName": "LoadsheddingStage"
+        },
+        {
+          "id": "sensor.loadshedding_value",
+          "friendlyName": "loadshedding Value",
+          "cSharpName": "LoadsheddingValue"
+        },
+        {
+          "id": "sensor.local_ip",
+          "friendlyName": "Local IP",
+          "cSharpName": "LocalIp"
+        },
+        {
+          "id": "sensor.moon_phase",
+          "friendlyName": "Moon Phase",
+          "cSharpName": "MoonPhase"
+        },
+        {
+          "id": "sensor.nodered_c49c97f829d3ea3f",
+          "friendlyName": "nodered c49c97f829d3ea3f",
+          "cSharpName": "NoderedC49c97f829d3ea3f"
+        },
+        {
+          "id": "sensor.packets_in_eth0",
+          "friendlyName": "Packets in eth0",
+          "cSharpName": "PacketsInEth0"
+        },
+        {
+          "id": "sensor.packets_out_eth0",
+          "friendlyName": "Packets out eth0",
+          "cSharpName": "PacketsOutEth0"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_debug_state_text",
+          "friendlyName": "Debug State Text",
+          "cSharpName": "PlantSensorWithDisplayDebugStateText"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_debug_state_text_2",
+          "friendlyName": "Plant Sensor With Display Debug State Text",
+          "cSharpName": "PlantSensorWithDisplayDebugStateText2"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_plantsensor_connected_bssid",
+          "friendlyName": "plantsensor Connected BSSID",
+          "cSharpName": "PlantSensorWithDisplayPlantsensorConnectedBssid"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_plantsensor_connected_bssid_2",
+          "friendlyName": "Plant Sensor With Display plantsensor Connected BSSID",
+          "cSharpName": "PlantSensorWithDisplayPlantsensorConnectedBssid2"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_plantsensor_connected_ssid",
+          "friendlyName": "plantsensor Connected SSID",
+          "cSharpName": "PlantSensorWithDisplayPlantsensorConnectedSsid"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_plantsensor_connected_ssid_2",
+          "friendlyName": "Plant Sensor With Display plantsensor Connected SSID",
+          "cSharpName": "PlantSensorWithDisplayPlantsensorConnectedSsid2"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_plantsensor_dns_address",
+          "friendlyName": "plantsensor DNS Address",
+          "cSharpName": "PlantSensorWithDisplayPlantsensorDnsAddress"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_plantsensor_dns_address_2",
+          "friendlyName": "Plant Sensor With Display plantsensor DNS Address",
+          "cSharpName": "PlantSensorWithDisplayPlantsensorDnsAddress2"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_plantsensor_ip_address",
+          "friendlyName": "plantsensor IP Address",
+          "cSharpName": "PlantSensorWithDisplayPlantsensorIpAddress"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_plantsensor_ip_address_2",
+          "friendlyName": "Plant Sensor With Display plantsensor IP Address",
+          "cSharpName": "PlantSensorWithDisplayPlantsensorIpAddress2"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_plantsensor_latest_scan_results",
+          "friendlyName": "plantsensor Latest Scan Results",
+          "cSharpName": "PlantSensorWithDisplayPlantsensorLatestScanResults"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_plantsensor_latest_scan_results_2",
+          "friendlyName": "Plant Sensor With Display plantsensor Latest Scan Results",
+          "cSharpName": "PlantSensorWithDisplayPlantsensorLatestScanResults2"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_plantsensor_mac_wifi_address",
+          "friendlyName": "plantsensor Mac Wifi Address",
+          "cSharpName": "PlantSensorWithDisplayPlantsensorMacWifiAddress"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_plantsensor_mac_wifi_address_2",
+          "friendlyName": "Plant Sensor With Display plantsensor Mac Wifi Address",
+          "cSharpName": "PlantSensorWithDisplayPlantsensorMacWifiAddress2"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_f_e_arkgrille",
+          "friendlyName": "Portable air conditioner f e arkgrille",
+          "cSharpName": "PortableAirConditionerFEArkgrille"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_f_e_dwmachine",
+          "friendlyName": "Portable air conditioner f e dwmachine",
+          "cSharpName": "PortableAirConditionerFEDwmachine"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_f_e_incoiltemp",
+          "friendlyName": "Portable air conditioner f e incoiltemp",
+          "cSharpName": "PortableAirConditionerFEIncoiltemp"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_f_e_incom",
+          "friendlyName": "Portable air conditioner f e incom",
+          "cSharpName": "PortableAirConditionerFEIncom"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_f_e_indisplay",
+          "friendlyName": "Portable air conditioner f e indisplay",
+          "cSharpName": "PortableAirConditionerFEIndisplay"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_f_e_ineeprom",
+          "friendlyName": "Portable air conditioner f e ineeprom",
+          "cSharpName": "PortableAirConditionerFEIneeprom"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_f_e_inele",
+          "friendlyName": "Portable air conditioner f e inele",
+          "cSharpName": "PortableAirConditionerFEInele"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_f_e_infanmotor",
+          "friendlyName": "Portable air conditioner f e infanmotor",
+          "cSharpName": "PortableAirConditionerFEInfanmotor"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_f_e_inhumidity",
+          "friendlyName": "Portable air conditioner f e inhumidity",
+          "cSharpName": "PortableAirConditionerFEInhumidity"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_f_e_inkeys",
+          "friendlyName": "Portable air conditioner f e inkeys",
+          "cSharpName": "PortableAirConditionerFEInkeys"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_f_e_intemp",
+          "friendlyName": "Portable air conditioner f e intemp",
+          "cSharpName": "PortableAirConditionerFEIntemp"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_f_e_invzero",
+          "friendlyName": "Portable air conditioner f e invzero",
+          "cSharpName": "PortableAirConditionerFEInvzero"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_f_e_inwifi",
+          "friendlyName": "Portable air conditioner f e inwifi",
+          "cSharpName": "PortableAirConditionerFEInwifi"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_f_e_outcoiltemp",
+          "friendlyName": "Portable air conditioner f e outcoiltemp",
+          "cSharpName": "PortableAirConditionerFEOutcoiltemp"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_f_e_outeeprom",
+          "friendlyName": "Portable air conditioner f e outeeprom",
+          "cSharpName": "PortableAirConditionerFEOuteeprom"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_f_e_outgastemp",
+          "friendlyName": "Portable air conditioner f e outgastemp",
+          "cSharpName": "PortableAirConditionerFEOutgastemp"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_f_e_outtemp",
+          "friendlyName": "Portable air conditioner f e outtemp",
+          "cSharpName": "PortableAirConditionerFEOuttemp"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_f_e_over_cold",
+          "friendlyName": "Portable air conditioner f e over cold",
+          "cSharpName": "PortableAirConditionerFEOverCold"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_f_e_over_hot",
+          "friendlyName": "Portable air conditioner f e over hot",
+          "cSharpName": "PortableAirConditionerFEOverHot"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_f_e_push",
+          "friendlyName": "Portable air conditioner f e push",
+          "cSharpName": "PortableAirConditionerFEPush"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_f_e_upmachine",
+          "friendlyName": "Portable air conditioner f e upmachine",
+          "cSharpName": "PortableAirConditionerFEUpmachine"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_f_e_waterfull",
+          "friendlyName": "Portable air conditioner f e waterfull",
+          "cSharpName": "PortableAirConditionerFEWaterfull"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_f_ecm",
+          "friendlyName": "Portable air conditioner f ecm",
+          "cSharpName": "PortableAirConditionerFEcm"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_f_electricity",
+          "friendlyName": "Portable air conditioner f electricity",
+          "cSharpName": "PortableAirConditionerFElectricity"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_f_filter",
+          "friendlyName": "Portable air conditioner f-filter",
+          "cSharpName": "PortableAirConditionerFFilter"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_f_humidity",
+          "friendlyName": "Portable air conditioner f humidity",
+          "cSharpName": "PortableAirConditionerFHumidity"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_measured_grid_voltage",
+          "friendlyName": "Portable air conditioner Measured grid voltage",
+          "cSharpName": "PortableAirConditionerMeasuredGridVoltage"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_sleep",
+          "friendlyName": "Portable air conditioner Sleep",
+          "cSharpName": "PortableAirConditionerSleep"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_t_dal",
+          "friendlyName": "Portable air conditioner t dal",
+          "cSharpName": "PortableAirConditionerTDal"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_t_demand_response",
+          "friendlyName": "Portable air conditioner t demand response",
+          "cSharpName": "PortableAirConditionerTDemandResponse"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_t_fan_speed_s",
+          "friendlyName": "Portable air conditioner t fan speed s",
+          "cSharpName": "PortableAirConditionerTFanSpeedS"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_t_fanspeedcv",
+          "friendlyName": "Portable air conditioner t fanspeedcv",
+          "cSharpName": "PortableAirConditionerTFanspeedcv"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_t_swing_angle",
+          "friendlyName": "Portable air conditioner t swing angle",
+          "cSharpName": "PortableAirConditionerTSwingAngle"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_t_swing_direction",
+          "friendlyName": "Portable air conditioner t swing direction",
+          "cSharpName": "PortableAirConditionerTSwingDirection"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_t_swing_follow",
+          "friendlyName": "Portable air conditioner t swing follow",
+          "cSharpName": "PortableAirConditionerTSwingFollow"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_t_talr",
+          "friendlyName": "Portable air conditioner t talr",
+          "cSharpName": "PortableAirConditionerTTalr"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_t_temp_compensate",
+          "friendlyName": "Portable air conditioner t temp compensate",
+          "cSharpName": "PortableAirConditionerTTempCompensate"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_t_tms",
+          "friendlyName": "Portable air conditioner t tms",
+          "cSharpName": "PortableAirConditionerTTms"
+        },
+        {
+          "id": "sensor.pushbullet_body",
+          "friendlyName": "Pushbullet Body",
+          "cSharpName": "PushbulletBody"
+        },
+        {
+          "id": "sensor.pushbullet_title",
+          "friendlyName": "Pushbullet Title",
+          "cSharpName": "PushbulletTitle"
+        },
+        {
+          "id": "sensor.qbittorrent_none",
+          "friendlyName": "Status",
+          "cSharpName": "QbittorrentNone"
+        },
+        {
+          "id": "sensor.sleepasandroid_henzard",
+          "friendlyName": "SleepAsAndroid_henzard",
+          "cSharpName": "SleepasandroidHenzard"
+        },
+        {
+          "id": "sensor.sm_s901e_audio_mode",
+          "friendlyName": "SM-S901E Audio mode",
+          "cSharpName": "SmS901eAudioMode"
+        },
+        {
+          "id": "sensor.sm_s901e_battery_health",
+          "friendlyName": "SM-S901E Battery health",
+          "cSharpName": "SmS901eBatteryHealth"
+        },
+        {
+          "id": "sensor.sm_s901e_battery_state",
+          "friendlyName": "SM-S901E Battery state",
+          "cSharpName": "SmS901eBatteryState"
+        },
+        {
+          "id": "sensor.sm_s901e_charger_type",
+          "friendlyName": "SM-S901E Charger type",
+          "cSharpName": "SmS901eChargerType"
+        },
+        {
+          "id": "sensor.sm_s901e_current_time_zone",
+          "friendlyName": "SM-S901E Current time zone",
+          "cSharpName": "SmS901eCurrentTimeZone"
+        },
+        {
+          "id": "sensor.sm_s901e_detected_activity",
+          "friendlyName": "SM-S901E Detected activity",
+          "cSharpName": "SmS901eDetectedActivity"
+        },
+        {
+          "id": "sensor.sm_s901e_geocoded_location",
+          "friendlyName": "SM-S901E Geocoded location",
+          "cSharpName": "SmS901eGeocodedLocation"
+        },
+        {
+          "id": "sensor.sm_s901e_last_reboot",
+          "friendlyName": "SM-S901E Last reboot",
+          "cSharpName": "SmS901eLastReboot"
+        },
+        {
+          "id": "sensor.sm_s901e_media_session",
+          "friendlyName": "SM-S901E Media session",
+          "cSharpName": "SmS901eMediaSession"
+        },
+        {
+          "id": "sensor.sm_s901e_network_type",
+          "friendlyName": "SM-S901E Network type",
+          "cSharpName": "SmS901eNetworkType"
+        },
+        {
+          "id": "sensor.sm_s901e_next_alarm",
+          "friendlyName": "SM-S901E Next alarm",
+          "cSharpName": "SmS901eNextAlarm"
+        },
+        {
+          "id": "sensor.sm_s901e_os_version",
+          "friendlyName": "SM-S901E OS version",
+          "cSharpName": "SmS901eOsVersion"
+        },
+        {
+          "id": "sensor.sm_s901e_proximity_sensor",
+          "friendlyName": "SM-S901E Proximity sensor",
+          "cSharpName": "SmS901eProximitySensor"
+        },
+        {
+          "id": "sensor.sm_s901e_ringer_mode",
+          "friendlyName": "SM-S901E Ringer mode",
+          "cSharpName": "SmS901eRingerMode"
+        },
+        {
+          "id": "sensor.sm_s901e_screen_brightness",
+          "friendlyName": "SM-S901E Screen brightness",
+          "cSharpName": "SmS901eScreenBrightness"
+        },
+        {
+          "id": "sensor.sm_s901e_wifi_bssid",
+          "friendlyName": "SM-S901E WiFi BSSID",
+          "cSharpName": "SmS901eWifiBssid"
+        },
+        {
+          "id": "sensor.sm_s901e_wifi_connection",
+          "friendlyName": "SM-S901E WiFi connection",
+          "cSharpName": "SmS901eWifiConnection"
+        },
+        {
+          "id": "sensor.sm_s901e_wifi_ip_address",
+          "friendlyName": "SM-S901E WiFi IP address",
+          "cSharpName": "SmS901eWifiIpAddress"
+        },
+        {
+          "id": "sensor.sonoff_1001eaf358_action",
+          "friendlyName": "Living room Fan Action",
+          "cSharpName": "Sonoff1001eaf358Action"
+        },
+        {
+          "id": "sensor.sonoff_1002025af6_action",
+          "friendlyName": "Garage Door Action",
+          "cSharpName": "Sonoff1002025af6Action"
+        },
+        {
+          "id": "sensor.sonoff_1002025b00_action",
+          "friendlyName": "Hek Action",
+          "cSharpName": "Sonoff1002025b00Action"
+        },
+        {
+          "id": "sensor.steps_daily",
+          "friendlyName": "Steps Daily",
+          "cSharpName": "StepsDaily"
+        },
+        {
+          "id": "sensor.sun_next_dawn",
+          "friendlyName": "Sun Next dawn",
+          "cSharpName": "SunNextDawn"
+        },
+        {
+          "id": "sensor.sun_next_dusk",
+          "friendlyName": "Sun Next dusk",
+          "cSharpName": "SunNextDusk"
+        },
+        {
+          "id": "sensor.sun_next_midnight",
+          "friendlyName": "Sun Next midnight",
+          "cSharpName": "SunNextMidnight"
+        },
+        {
+          "id": "sensor.sun_next_noon",
+          "friendlyName": "Sun Next noon",
+          "cSharpName": "SunNextNoon"
+        },
+        {
+          "id": "sensor.sun_next_rising",
+          "friendlyName": "Sun Next rising",
+          "cSharpName": "SunNextRising"
+        },
+        {
+          "id": "sensor.sun_next_setting",
+          "friendlyName": "Sun Next setting",
+          "cSharpName": "SunNextSetting"
+        },
+        {
+          "id": "sensor.tank_level",
+          "friendlyName": "Tank Level",
+          "cSharpName": "TankLevel"
+        },
+        {
+          "id": "sensor.total_liters",
+          "friendlyName": "Total Liters",
+          "cSharpName": "TotalLiters"
+        },
+        {
+          "id": "sensor.water_plants",
+          "friendlyName": "Water Plants",
+          "cSharpName": "WaterPlants"
+        },
+        {
+          "id": "sensor.water_pump_bssid",
+          "friendlyName": "BSSID",
+          "cSharpName": "WaterPumpBssid"
+        },
+        {
+          "id": "sensor.water_pump_dns_address",
+          "friendlyName": "DNS Address",
+          "cSharpName": "WaterPumpDnsAddress"
+        },
+        {
+          "id": "sensor.water_pump_ip_address",
+          "friendlyName": "IP Address",
+          "cSharpName": "WaterPumpIpAddress"
+        },
+        {
+          "id": "sensor.water_pump_latest_scan_results",
+          "friendlyName": "Latest Scan Results",
+          "cSharpName": "WaterPumpLatestScanResults"
+        },
+        {
+          "id": "sensor.water_pump_mac_wifi_address",
+          "friendlyName": "Mac Wifi Address",
+          "cSharpName": "WaterPumpMacWifiAddress"
+        },
+        {
+          "id": "sensor.water_pump_ssid",
+          "friendlyName": "SSID",
+          "cSharpName": "WaterPumpSsid"
+        },
+        {
+          "id": "sensor.weighing",
+          "friendlyName": "Weighing",
+          "cSharpName": "Weighing"
+        },
+        {
+          "id": "sensor.weighsoft_now_server_weighsoftnowserver_connected_bssid",
+          "friendlyName": "Weighsoft Now Server WeighsoftNowServer Connected BSSID",
+          "cSharpName": "WeighsoftNowServerWeighsoftnowserverConnectedBssid"
+        },
+        {
+          "id": "sensor.weighsoft_now_server_weighsoftnowserver_connected_ssid",
+          "friendlyName": "Weighsoft Now Server WeighsoftNowServer Connected SSID",
+          "cSharpName": "WeighsoftNowServerWeighsoftnowserverConnectedSsid"
+        },
+        {
+          "id": "sensor.weighsoft_now_server_weighsoftnowserver_dns_address",
+          "friendlyName": "Weighsoft Now Server WeighsoftNowServer DNS Address",
+          "cSharpName": "WeighsoftNowServerWeighsoftnowserverDnsAddress"
+        },
+        {
+          "id": "sensor.weighsoft_now_server_weighsoftnowserver_ip_address",
+          "friendlyName": "Weighsoft Now Server WeighsoftNowServer IP Address",
+          "cSharpName": "WeighsoftNowServerWeighsoftnowserverIpAddress"
+        },
+        {
+          "id": "sensor.weighsoft_now_server_weighsoftnowserver_latest_scan_results",
+          "friendlyName": "Weighsoft Now Server WeighsoftNowServer Latest Scan Results",
+          "cSharpName": "WeighsoftNowServerWeighsoftnowserverLatestScanResults"
+        },
+        {
+          "id": "sensor.weighsoft_now_server_weighsoftnowserver_mac_wifi_address",
+          "friendlyName": "Weighsoft Now Server WeighsoftNowServer Mac Wifi Address",
+          "cSharpName": "WeighsoftNowServerWeighsoftnowserverMacWifiAddress"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "device_class",
+          "cSharpName": "DeviceClass",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "icon",
+          "cSharpName": "Icon",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "next_phase_date",
+          "cSharpName": "NextPhaseDate",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "options",
+          "cSharpName": "Options",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "moon_age",
+          "cSharpName": "MoonAge",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "moon_distance_km",
+          "cSharpName": "MoonDistanceKm",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "moon_azimuth_deg",
+          "cSharpName": "MoonAzimuthDeg",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "moon_altitude_deg",
+          "cSharpName": "MoonAltitudeDeg",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "moon_parallactic_angle_deg",
+          "cSharpName": "MoonParallacticAngleDeg",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "illumination_fraction",
+          "cSharpName": "IlluminationFraction",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "next_full_moon",
+          "cSharpName": "NextFullMoon",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "next_new_moon",
+          "cSharpName": "NextNewMoon",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "next_third_quarter",
+          "cSharpName": "NextThirdQuarter",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "next_first_quarter",
+          "cSharpName": "NextFirstQuarter",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "moonrise",
+          "cSharpName": "Moonrise",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "moonset",
+          "cSharpName": "Moonset",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "moon_high",
+          "cSharpName": "MoonHigh",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "next_phase",
+          "cSharpName": "NextPhase",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "location",
+          "cSharpName": "Location",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "is_hidden",
+          "cSharpName": "IsHidden",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "still",
+          "cSharpName": "Still",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "metered",
+          "cSharpName": "Metered",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "Local Time",
+          "cSharpName": "LocalTime",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "Package",
+          "cSharpName": "Package",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "Time in Milliseconds",
+          "cSharpName": "TimeinMilliseconds",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "automatic",
+          "cSharpName": "Automatic",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "administrative_area",
+          "cSharpName": "AdministrativeArea",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "country",
+          "cSharpName": "Country",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "iso_country_code",
+          "cSharpName": "IsoCountryCode",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "locality",
+          "cSharpName": "Locality",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "name",
+          "cSharpName": "Name",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "phone",
+          "cSharpName": "Phone",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "postal_code",
+          "cSharpName": "PostalCode",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "premises",
+          "cSharpName": "Premises",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "sub_administrative_area",
+          "cSharpName": "SubAdministrativeArea",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "sub_locality",
+          "cSharpName": "SubLocality",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "sub_thoroughfare",
+          "cSharpName": "SubThoroughfare",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "thoroughfare",
+          "cSharpName": "Thoroughfare",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "url",
+          "cSharpName": "Url",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "in_daylight_time",
+          "cSharpName": "InDaylightTime",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "time_zone_id",
+          "cSharpName": "TimeZoneId",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "time_zone_short",
+          "cSharpName": "TimeZoneShort",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "uses_daylight_time",
+          "cSharpName": "UsesDaylightTime",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "utc_offset",
+          "cSharpName": "UtcOffset",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "Advertise mode",
+          "cSharpName": "Advertisemode",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "Measured power",
+          "cSharpName": "Measuredpower",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "Supports transmitter",
+          "cSharpName": "Supportstransmitter",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "Transmitting power",
+          "cSharpName": "Transmittingpower",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "id",
+          "cSharpName": "Id",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "state_class",
+          "cSharpName": "StateClass",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "attribution",
+          "cSharpName": "Attribution",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "timestamp",
+          "cSharpName": "Timestamp",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "label",
+          "cSharpName": "Label",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "restored",
+          "cSharpName": "Restored",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "last_backup",
+          "cSharpName": "LastBackup",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "next_backup",
+          "cSharpName": "NextBackup",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "last_uploaded",
+          "cSharpName": "LastUploaded",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "backups_in_google_drive",
+          "cSharpName": "BackupsInGoogleDrive",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "backups_in_home_assistant",
+          "cSharpName": "BackupsInHomeAssistant",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "size_in_google_drive",
+          "cSharpName": "SizeInGoogleDrive",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "size_in_home_assistant",
+          "cSharpName": "SizeInHomeAssistant",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "backups",
+          "cSharpName": "Backups",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.Object]"
+        },
+        {
+          "jsonName": "free_space_in_google_drive",
+          "cSharpName": "FreeSpaceInGoogleDrive",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "sensor",
+      "isNumeric": true,
+      "entities": [
+        {
+          "id": "sensor.active_minutes_daily",
+          "friendlyName": "Active Minutes Daily",
+          "cSharpName": "ActiveMinutesDaily"
+        },
+        {
+          "id": "sensor.awake_time",
+          "friendlyName": "Awake Time",
+          "cSharpName": "AwakeTime"
+        },
+        {
+          "id": "sensor.basal_metabolic_rate",
+          "friendlyName": "Basal Metabolic Rate",
+          "cSharpName": "BasalMetabolicRate"
+        },
+        {
+          "id": "sensor.bloemfontein_moon_age",
+          "friendlyName": "Bloemfontein Moon Age",
+          "cSharpName": "BloemfonteinMoonAge"
+        },
+        {
+          "id": "sensor.bloemfontein_moon_altitude",
+          "friendlyName": "Bloemfontein Moon Altitude",
+          "cSharpName": "BloemfonteinMoonAltitude"
+        },
+        {
+          "id": "sensor.bloemfontein_moon_azimuth",
+          "friendlyName": "Bloemfontein Moon Azimuth",
+          "cSharpName": "BloemfonteinMoonAzimuth"
+        },
+        {
+          "id": "sensor.bloemfontein_moon_distance",
+          "friendlyName": "Bloemfontein Moon Distance",
+          "cSharpName": "BloemfonteinMoonDistance"
+        },
+        {
+          "id": "sensor.bloemfontein_moon_illumination_fraction",
+          "friendlyName": "Bloemfontein Moon Illumination Fraction",
+          "cSharpName": "BloemfonteinMoonIlluminationFraction"
+        },
+        {
+          "id": "sensor.bloemfontein_moon_parallactic_angle",
+          "friendlyName": "Bloemfontein Moon Parallactic Angle",
+          "cSharpName": "BloemfonteinMoonParallacticAngle"
+        },
+        {
+          "id": "sensor.blood_glucose",
+          "friendlyName": "Blood Glucose",
+          "cSharpName": "BloodGlucose"
+        },
+        {
+          "id": "sensor.blood_pressure_diastolic",
+          "friendlyName": "Blood Pressure Diastolic",
+          "cSharpName": "BloodPressureDiastolic"
+        },
+        {
+          "id": "sensor.blood_pressure_systolic",
+          "friendlyName": "Blood Pressure Systolic",
+          "cSharpName": "BloodPressureSystolic"
+        },
+        {
+          "id": "sensor.body_fat",
+          "friendlyName": "Body Fat",
+          "cSharpName": "BodyFat"
+        },
+        {
+          "id": "sensor.body_temperature",
+          "friendlyName": "Body Temperature",
+          "cSharpName": "BodyTemperature"
+        },
+        {
+          "id": "sensor.boorgat_current",
+          "friendlyName": "Boorgat Current",
+          "cSharpName": "BoorgatCurrent"
+        },
+        {
+          "id": "sensor.boorgat_power",
+          "friendlyName": "Boorgat Power",
+          "cSharpName": "BoorgatPower"
+        },
+        {
+          "id": "sensor.boorgat_voltage",
+          "friendlyName": "Boorgat Voltage",
+          "cSharpName": "BoorgatVoltage"
+        },
+        {
+          "id": "sensor.box_battery_level",
+          "friendlyName": "Box Battery Level",
+          "cSharpName": "BoxBatteryLevel"
+        },
+        {
+          "id": "sensor.box_illuminance",
+          "friendlyName": "Box Illuminance",
+          "cSharpName": "BoxIlluminance"
+        },
+        {
+          "id": "sensor.box_moisture",
+          "friendlyName": "Box Moisture",
+          "cSharpName": "BoxMoisture"
+        },
+        {
+          "id": "sensor.box_soil_conductivity",
+          "friendlyName": "Box Soil Conductivity",
+          "cSharpName": "BoxSoilConductivity"
+        },
+        {
+          "id": "sensor.box_temperature",
+          "friendlyName": "Box Temperature",
+          "cSharpName": "BoxTemperature"
+        },
+        {
+          "id": "sensor.calories_burnt_daily",
+          "friendlyName": "Calories Burnt Daily",
+          "cSharpName": "CaloriesBurntDaily"
+        },
+        {
+          "id": "sensor.daily_avg_weight",
+          "friendlyName": "Daily Avg Weight",
+          "cSharpName": "DailyAvgWeight"
+        },
+        {
+          "id": "sensor.deep_sleep",
+          "friendlyName": "Deep Sleep",
+          "cSharpName": "DeepSleep"
+        },
+        {
+          "id": "sensor.disk_free",
+          "friendlyName": "System Monitor Disk free /",
+          "cSharpName": "DiskFree"
+        },
+        {
+          "id": "sensor.disk_use",
+          "friendlyName": "System Monitor Disk use /",
+          "cSharpName": "DiskUse"
+        },
+        {
+          "id": "sensor.disk_use_percent_config",
+          "friendlyName": "System Monitor Disk usage /config",
+          "cSharpName": "DiskUsePercentConfig"
+        },
+        {
+          "id": "sensor.distance_travelled_daily",
+          "friendlyName": "Distance Travelled Daily",
+          "cSharpName": "DistanceTravelledDaily"
+        },
+        {
+          "id": "sensor.energy_garage",
+          "friendlyName": "energy_garage",
+          "cSharpName": "EnergyGarage"
+        },
+        {
+          "id": "sensor.energy_garage_cost",
+          "friendlyName": "sensor Cost",
+          "cSharpName": "EnergyGarageCost"
+        },
+        {
+          "id": "sensor.esp32_humidity_and_temp_living_room_humidity",
+          "friendlyName": "ESP32 Humidity and Temp Living Room Humidity",
+          "cSharpName": "Esp32HumidityAndTempLivingRoomHumidity"
+        },
+        {
+          "id": "sensor.esp32_humidity_and_temp_living_room_temperature",
+          "friendlyName": "ESP32 Humidity and Temp Living Room Temperature",
+          "cSharpName": "Esp32HumidityAndTempLivingRoomTemperature"
+        },
+        {
+          "id": "sensor.exchange_rate_1_btc",
+          "friendlyName": "Exchange rate (1 BTC)",
+          "cSharpName": "ExchangeRate1Btc"
+        },
+        {
+          "id": "sensor.galaxy_watch4_classic_75re_battery_level",
+          "friendlyName": "Galaxy Watch4 Classic (75RE) Battery level",
+          "cSharpName": "GalaxyWatch4Classic75reBatteryLevel"
+        },
+        {
+          "id": "sensor.geyser_current",
+          "friendlyName": "Geyser  Current",
+          "cSharpName": "GeyserCurrent"
+        },
+        {
+          "id": "sensor.geyser_power",
+          "friendlyName": "Geyser  Power",
+          "cSharpName": "GeyserPower"
+        },
+        {
+          "id": "sensor.geyser_voltage",
+          "friendlyName": "Geyser  Voltage",
+          "cSharpName": "GeyserVoltage"
+        },
+        {
+          "id": "sensor.habitica_henzard_kruger_dailys",
+          "friendlyName": "Henzard Kruger Dailies",
+          "cSharpName": "HabiticaHenzardKrugerDailys"
+        },
+        {
+          "id": "sensor.habitica_henzard_kruger_habits",
+          "friendlyName": "Henzard Kruger Habits",
+          "cSharpName": "HabiticaHenzardKrugerHabits"
+        },
+        {
+          "id": "sensor.habitica_henzard_kruger_rewards",
+          "friendlyName": "Henzard Kruger Rewards",
+          "cSharpName": "HabiticaHenzardKrugerRewards"
+        },
+        {
+          "id": "sensor.habitica_henzard_kruger_todos",
+          "friendlyName": "Henzard Kruger To-Do\u0027s",
+          "cSharpName": "HabiticaHenzardKrugerTodos"
+        },
+        {
+          "id": "sensor.heart_rate",
+          "friendlyName": "Heart Rate",
+          "cSharpName": "HeartRate"
+        },
+        {
+          "id": "sensor.height",
+          "friendlyName": "Height",
+          "cSharpName": "Height"
+        },
+        {
+          "id": "sensor.henzard_kruger_battery_charge_remaining_percentage",
+          "friendlyName": "_battery Charge Remaining Percentage",
+          "cSharpName": "HenzardKrugerBatteryChargeRemainingPercentage"
+        },
+        {
+          "id": "sensor.henzard_kruger_constitution",
+          "friendlyName": "Henzard Kruger Constitution",
+          "cSharpName": "HenzardKrugerConstitution"
+        },
+        {
+          "id": "sensor.henzard_kruger_cpuload",
+          "friendlyName": "_cpuload",
+          "cSharpName": "HenzardKrugerCpuload"
+        },
+        {
+          "id": "sensor.henzard_kruger_experience",
+          "friendlyName": "Henzard Kruger Experience",
+          "cSharpName": "HenzardKrugerExperience"
+        },
+        {
+          "id": "sensor.henzard_kruger_gems",
+          "friendlyName": "Henzard Kruger Gems",
+          "cSharpName": "HenzardKrugerGems"
+        },
+        {
+          "id": "sensor.henzard_kruger_gold",
+          "friendlyName": "Henzard Kruger Gold",
+          "cSharpName": "HenzardKrugerGold"
+        },
+        {
+          "id": "sensor.henzard_kruger_health",
+          "friendlyName": "Henzard Kruger Health",
+          "cSharpName": "HenzardKrugerHealth"
+        },
+        {
+          "id": "sensor.henzard_kruger_intelligence",
+          "friendlyName": "Henzard Kruger Intelligence",
+          "cSharpName": "HenzardKrugerIntelligence"
+        },
+        {
+          "id": "sensor.henzard_kruger_mana",
+          "friendlyName": "Henzard Kruger Mana",
+          "cSharpName": "HenzardKrugerMana"
+        },
+        {
+          "id": "sensor.henzard_kruger_max_mana",
+          "friendlyName": "Henzard Kruger Max. mana",
+          "cSharpName": "HenzardKrugerMaxMana"
+        },
+        {
+          "id": "sensor.henzard_kruger_memoryusage",
+          "friendlyName": "_memoryusage",
+          "cSharpName": "HenzardKrugerMemoryusage"
+        },
+        {
+          "id": "sensor.henzard_kruger_mystic_hourglasses",
+          "friendlyName": "Henzard Kruger Mystic hourglasses",
+          "cSharpName": "HenzardKrugerMysticHourglasses"
+        },
+        {
+          "id": "sensor.henzard_kruger_next_level",
+          "friendlyName": "Henzard Kruger Next level",
+          "cSharpName": "HenzardKrugerNextLevel"
+        },
+        {
+          "id": "sensor.henzard_kruger_perception",
+          "friendlyName": "Henzard Kruger Perception",
+          "cSharpName": "HenzardKrugerPerception"
+        },
+        {
+          "id": "sensor.henzard_kruger_strength",
+          "friendlyName": "Henzard Kruger Strength",
+          "cSharpName": "HenzardKrugerStrength"
+        },
+        {
+          "id": "sensor.home_cloud_ceiling",
+          "friendlyName": "Home Cloud ceiling",
+          "cSharpName": "HomeCloudCeiling"
+        },
+        {
+          "id": "sensor.home_hours_of_sun_day_1",
+          "friendlyName": "Home Hours of sun day 1",
+          "cSharpName": "HomeHoursOfSunDay1"
+        },
+        {
+          "id": "sensor.home_hours_of_sun_day_2",
+          "friendlyName": "Home Hours of sun day 2",
+          "cSharpName": "HomeHoursOfSunDay2"
+        },
+        {
+          "id": "sensor.home_hours_of_sun_day_3",
+          "friendlyName": "Home Hours of sun day 3",
+          "cSharpName": "HomeHoursOfSunDay3"
+        },
+        {
+          "id": "sensor.home_hours_of_sun_day_4",
+          "friendlyName": "Home Hours of sun day 4",
+          "cSharpName": "HomeHoursOfSunDay4"
+        },
+        {
+          "id": "sensor.home_hours_of_sun_today",
+          "friendlyName": "Home Hours of sun day 0",
+          "cSharpName": "HomeHoursOfSunToday"
+        },
+        {
+          "id": "sensor.home_precipitation",
+          "friendlyName": "Home Precipitation",
+          "cSharpName": "HomePrecipitation"
+        },
+        {
+          "id": "sensor.home_realfeel_temperature",
+          "friendlyName": "Home RealFeel temperature",
+          "cSharpName": "HomeRealfeelTemperature"
+        },
+        {
+          "id": "sensor.home_realfeel_temperature_max_day_1",
+          "friendlyName": "Home RealFeel temperature max day 1",
+          "cSharpName": "HomeRealfeelTemperatureMaxDay1"
+        },
+        {
+          "id": "sensor.home_realfeel_temperature_max_day_2",
+          "friendlyName": "Home RealFeel temperature max day 2",
+          "cSharpName": "HomeRealfeelTemperatureMaxDay2"
+        },
+        {
+          "id": "sensor.home_realfeel_temperature_max_day_3",
+          "friendlyName": "Home RealFeel temperature max day 3",
+          "cSharpName": "HomeRealfeelTemperatureMaxDay3"
+        },
+        {
+          "id": "sensor.home_realfeel_temperature_max_day_4",
+          "friendlyName": "Home RealFeel temperature max day 4",
+          "cSharpName": "HomeRealfeelTemperatureMaxDay4"
+        },
+        {
+          "id": "sensor.home_realfeel_temperature_max_today",
+          "friendlyName": "Home RealFeel temperature max day 0",
+          "cSharpName": "HomeRealfeelTemperatureMaxToday"
+        },
+        {
+          "id": "sensor.home_realfeel_temperature_min_day_1",
+          "friendlyName": "Home RealFeel temperature min day 1",
+          "cSharpName": "HomeRealfeelTemperatureMinDay1"
+        },
+        {
+          "id": "sensor.home_realfeel_temperature_min_day_2",
+          "friendlyName": "Home RealFeel temperature min day 2",
+          "cSharpName": "HomeRealfeelTemperatureMinDay2"
+        },
+        {
+          "id": "sensor.home_realfeel_temperature_min_day_3",
+          "friendlyName": "Home RealFeel temperature min day 3",
+          "cSharpName": "HomeRealfeelTemperatureMinDay3"
+        },
+        {
+          "id": "sensor.home_realfeel_temperature_min_day_4",
+          "friendlyName": "Home RealFeel temperature min day 4",
+          "cSharpName": "HomeRealfeelTemperatureMinDay4"
+        },
+        {
+          "id": "sensor.home_realfeel_temperature_min_today",
+          "friendlyName": "Home RealFeel temperature min day 0",
+          "cSharpName": "HomeRealfeelTemperatureMinToday"
+        },
+        {
+          "id": "sensor.home_thunderstorm_probability_day_1",
+          "friendlyName": "Home Thunderstorm probability day 1",
+          "cSharpName": "HomeThunderstormProbabilityDay1"
+        },
+        {
+          "id": "sensor.home_thunderstorm_probability_day_2",
+          "friendlyName": "Home Thunderstorm probability day 2",
+          "cSharpName": "HomeThunderstormProbabilityDay2"
+        },
+        {
+          "id": "sensor.home_thunderstorm_probability_day_3",
+          "friendlyName": "Home Thunderstorm probability day 3",
+          "cSharpName": "HomeThunderstormProbabilityDay3"
+        },
+        {
+          "id": "sensor.home_thunderstorm_probability_day_4",
+          "friendlyName": "Home Thunderstorm probability day 4",
+          "cSharpName": "HomeThunderstormProbabilityDay4"
+        },
+        {
+          "id": "sensor.home_thunderstorm_probability_night_1",
+          "friendlyName": "Home Thunderstorm probability night 1",
+          "cSharpName": "HomeThunderstormProbabilityNight1"
+        },
+        {
+          "id": "sensor.home_thunderstorm_probability_night_2",
+          "friendlyName": "Home Thunderstorm probability night 2",
+          "cSharpName": "HomeThunderstormProbabilityNight2"
+        },
+        {
+          "id": "sensor.home_thunderstorm_probability_night_3",
+          "friendlyName": "Home Thunderstorm probability night 3",
+          "cSharpName": "HomeThunderstormProbabilityNight3"
+        },
+        {
+          "id": "sensor.home_thunderstorm_probability_night_4",
+          "friendlyName": "Home Thunderstorm probability night 4",
+          "cSharpName": "HomeThunderstormProbabilityNight4"
+        },
+        {
+          "id": "sensor.home_thunderstorm_probability_today",
+          "friendlyName": "Home Thunderstorm probability day 0",
+          "cSharpName": "HomeThunderstormProbabilityToday"
+        },
+        {
+          "id": "sensor.home_thunderstorm_probability_tonight",
+          "friendlyName": "Home Thunderstorm probability night 0",
+          "cSharpName": "HomeThunderstormProbabilityTonight"
+        },
+        {
+          "id": "sensor.home_uv_index",
+          "friendlyName": "Home UV index",
+          "cSharpName": "HomeUvIndex"
+        },
+        {
+          "id": "sensor.home_uv_index_day_1",
+          "friendlyName": "Home UV index day 1",
+          "cSharpName": "HomeUvIndexDay1"
+        },
+        {
+          "id": "sensor.home_uv_index_day_2",
+          "friendlyName": "Home UV index day 2",
+          "cSharpName": "HomeUvIndexDay2"
+        },
+        {
+          "id": "sensor.home_uv_index_day_3",
+          "friendlyName": "Home UV index day 3",
+          "cSharpName": "HomeUvIndexDay3"
+        },
+        {
+          "id": "sensor.home_uv_index_day_4",
+          "friendlyName": "Home UV index day 4",
+          "cSharpName": "HomeUvIndexDay4"
+        },
+        {
+          "id": "sensor.home_uv_index_today",
+          "friendlyName": "Home UV index day 0",
+          "cSharpName": "HomeUvIndexToday"
+        },
+        {
+          "id": "sensor.home_wind",
+          "friendlyName": "Home Wind speed",
+          "cSharpName": "HomeWind"
+        },
+        {
+          "id": "sensor.home_wind_speed_day_1",
+          "friendlyName": "Home Wind speed day 1",
+          "cSharpName": "HomeWindSpeedDay1"
+        },
+        {
+          "id": "sensor.home_wind_speed_day_2",
+          "friendlyName": "Home Wind speed day 2",
+          "cSharpName": "HomeWindSpeedDay2"
+        },
+        {
+          "id": "sensor.home_wind_speed_day_3",
+          "friendlyName": "Home Wind speed day 3",
+          "cSharpName": "HomeWindSpeedDay3"
+        },
+        {
+          "id": "sensor.home_wind_speed_day_4",
+          "friendlyName": "Home Wind speed day 4",
+          "cSharpName": "HomeWindSpeedDay4"
+        },
+        {
+          "id": "sensor.home_wind_speed_night_1",
+          "friendlyName": "Home Wind speed night 1",
+          "cSharpName": "HomeWindSpeedNight1"
+        },
+        {
+          "id": "sensor.home_wind_speed_night_2",
+          "friendlyName": "Home Wind speed night 2",
+          "cSharpName": "HomeWindSpeedNight2"
+        },
+        {
+          "id": "sensor.home_wind_speed_night_3",
+          "friendlyName": "Home Wind speed night 3",
+          "cSharpName": "HomeWindSpeedNight3"
+        },
+        {
+          "id": "sensor.home_wind_speed_night_4",
+          "friendlyName": "Home Wind speed night 4",
+          "cSharpName": "HomeWindSpeedNight4"
+        },
+        {
+          "id": "sensor.home_wind_speed_today",
+          "friendlyName": "Home Wind speed day 0",
+          "cSharpName": "HomeWindSpeedToday"
+        },
+        {
+          "id": "sensor.home_wind_speed_tonight",
+          "friendlyName": "Home Wind speed night 0",
+          "cSharpName": "HomeWindSpeedTonight"
+        },
+        {
+          "id": "sensor.hydration",
+          "friendlyName": "Hydration",
+          "cSharpName": "Hydration"
+        },
+        {
+          "id": "sensor.imap_info_krugerwebsolutions_co_za",
+          "friendlyName": "IMAP (Info@krugerwebsolutions.co.za ) Messages",
+          "cSharpName": "ImapInfoKrugerwebsolutionsCoZa"
+        },
+        {
+          "id": "sensor.internet_gateway_device_kib_s_received",
+          "friendlyName": "Internet Gateway Device Download speed",
+          "cSharpName": "InternetGatewayDeviceKibSReceived"
+        },
+        {
+          "id": "sensor.internet_gateway_device_kib_s_sent",
+          "friendlyName": "Internet Gateway Device Upload speed",
+          "cSharpName": "InternetGatewayDeviceKibSSent"
+        },
+        {
+          "id": "sensor.kaelyn_s10_active_notification_count",
+          "friendlyName": "Kaelyn S10 Active notification count",
+          "cSharpName": "KaelynS10ActiveNotificationCount"
+        },
+        {
+          "id": "sensor.kaelyn_s10_app_memory",
+          "friendlyName": "Kaelyn S10 App memory",
+          "cSharpName": "KaelynS10AppMemory"
+        },
+        {
+          "id": "sensor.kaelyn_s10_app_rx_gb",
+          "friendlyName": "Kaelyn S10 App Rx GB",
+          "cSharpName": "KaelynS10AppRxGb"
+        },
+        {
+          "id": "sensor.kaelyn_s10_app_tx_gb",
+          "friendlyName": "Kaelyn S10 App Tx GB",
+          "cSharpName": "KaelynS10AppTxGb"
+        },
+        {
+          "id": "sensor.kaelyn_s10_battery_level",
+          "friendlyName": "Kaelyn S10 Battery level",
+          "cSharpName": "KaelynS10BatteryLevel"
+        },
+        {
+          "id": "sensor.kaelyn_s10_battery_temperature",
+          "friendlyName": "Kaelyn S10 Battery temperature",
+          "cSharpName": "KaelynS10BatteryTemperature"
+        },
+        {
+          "id": "sensor.kaelyn_s10_bluetooth_connection",
+          "friendlyName": "Kaelyn S10 Bluetooth connection",
+          "cSharpName": "KaelynS10BluetoothConnection"
+        },
+        {
+          "id": "sensor.kaelyn_s10_light_sensor",
+          "friendlyName": "Kaelyn S10 Light sensor",
+          "cSharpName": "KaelynS10LightSensor"
+        },
+        {
+          "id": "sensor.kaelyn_s10_pressure_sensor",
+          "friendlyName": "Kaelyn S10 Pressure sensor",
+          "cSharpName": "KaelynS10PressureSensor"
+        },
+        {
+          "id": "sensor.kaelyn_s10_sleep_confidence",
+          "friendlyName": "Kaelyn S10 Sleep confidence",
+          "cSharpName": "KaelynS10SleepConfidence"
+        },
+        {
+          "id": "sensor.kaelyn_s10_sleep_segment",
+          "friendlyName": "Kaelyn S10 Sleep segment",
+          "cSharpName": "KaelynS10SleepSegment"
+        },
+        {
+          "id": "sensor.kaelyn_s10_steps_sensor",
+          "friendlyName": "Kaelyn S10 Steps sensor",
+          "cSharpName": "KaelynS10StepsSensor"
+        },
+        {
+          "id": "sensor.kaelyn_s10_total_rx_gb",
+          "friendlyName": "Kaelyn S10 Total Rx GB",
+          "cSharpName": "KaelynS10TotalRxGb"
+        },
+        {
+          "id": "sensor.kaelyn_s10_total_tx_gb",
+          "friendlyName": "Kaelyn S10 Total Tx GB",
+          "cSharpName": "KaelynS10TotalTxGb"
+        },
+        {
+          "id": "sensor.kaelyn_s10_wifi_frequency",
+          "friendlyName": "Kaelyn S10 WiFi frequency",
+          "cSharpName": "KaelynS10WifiFrequency"
+        },
+        {
+          "id": "sensor.kaelyn_s10_wifi_link_speed",
+          "friendlyName": "Kaelyn S10 WiFi link speed",
+          "cSharpName": "KaelynS10WifiLinkSpeed"
+        },
+        {
+          "id": "sensor.kaelyn_s10_wifi_signal_strength",
+          "friendlyName": "Kaelyn S10 WiFi signal strength",
+          "cSharpName": "KaelynS10WifiSignalStrength"
+        },
+        {
+          "id": "sensor.kws_one_kws_one_battery_charge_remaining_percentage",
+          "friendlyName": "KWS-ONE_battery Charge Remaining Percentage",
+          "cSharpName": "KwsOneKwsOneBatteryChargeRemainingPercentage"
+        },
+        {
+          "id": "sensor.kws_one_kws_one_cpuload",
+          "friendlyName": "KWS-ONE_cpuload",
+          "cSharpName": "KwsOneKwsOneCpuload"
+        },
+        {
+          "id": "sensor.kws_one_kws_one_memoryusage",
+          "friendlyName": "KWS-ONE_memoryusage",
+          "cSharpName": "KwsOneKwsOneMemoryusage"
+        },
+        {
+          "id": "sensor.light_sleep",
+          "friendlyName": "Light Sleep",
+          "cSharpName": "LightSleep"
+        },
+        {
+          "id": "sensor.memory_free",
+          "friendlyName": "System Monitor Memory free",
+          "cSharpName": "MemoryFree"
+        },
+        {
+          "id": "sensor.memory_use",
+          "friendlyName": "System Monitor Memory use",
+          "cSharpName": "MemoryUse"
+        },
+        {
+          "id": "sensor.memory_use_percent",
+          "friendlyName": "System Monitor Memory usage",
+          "cSharpName": "MemoryUsePercent"
+        },
+        {
+          "id": "sensor.network_in_eth0",
+          "friendlyName": "Network in eth0",
+          "cSharpName": "NetworkInEth0"
+        },
+        {
+          "id": "sensor.network_out_eth0",
+          "friendlyName": "Network out eth0",
+          "cSharpName": "NetworkOutEth0"
+        },
+        {
+          "id": "sensor.network_throughput_in_eth0",
+          "friendlyName": "Network throughput in eth0",
+          "cSharpName": "NetworkThroughputInEth0"
+        },
+        {
+          "id": "sensor.network_throughput_out_eth0",
+          "friendlyName": "Network throughput out eth0",
+          "cSharpName": "NetworkThroughputOutEth0"
+        },
+        {
+          "id": "sensor.open_exchange_rates_usd_eur",
+          "friendlyName": "Open Exchange Rates USD EUR",
+          "cSharpName": "OpenExchangeRatesUsdEur"
+        },
+        {
+          "id": "sensor.open_exchange_rates_usd_zar",
+          "friendlyName": "Open Exchange Rates USD ZAR",
+          "cSharpName": "OpenExchangeRatesUsdZar"
+        },
+        {
+          "id": "sensor.oxygen_saturation",
+          "friendlyName": "Oxygen Saturation",
+          "cSharpName": "OxygenSaturation"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_corner_garden_battery_level",
+          "friendlyName": "Plant Sensor With Display Corner Garden Battery Level",
+          "cSharpName": "PlantSensorWithDisplayCornerGardenBatteryLevel"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_corner_garden_battery_level_2",
+          "friendlyName": "Corner Garden Battery Level",
+          "cSharpName": "PlantSensorWithDisplayCornerGardenBatteryLevel2"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_corner_garden_illuminance",
+          "friendlyName": "Plant Sensor With Display Corner Garden Illuminance",
+          "cSharpName": "PlantSensorWithDisplayCornerGardenIlluminance"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_corner_garden_illuminance_2",
+          "friendlyName": "Corner Garden Illuminance",
+          "cSharpName": "PlantSensorWithDisplayCornerGardenIlluminance2"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_corner_garden_moisture",
+          "friendlyName": "Plant Sensor With Display Corner Garden Moisture",
+          "cSharpName": "PlantSensorWithDisplayCornerGardenMoisture"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_corner_garden_moisture_2",
+          "friendlyName": "Corner Garden Moisture",
+          "cSharpName": "PlantSensorWithDisplayCornerGardenMoisture2"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_corner_garden_soil_conductivity",
+          "friendlyName": "Plant Sensor With Display Corner Garden Soil Conductivity",
+          "cSharpName": "PlantSensorWithDisplayCornerGardenSoilConductivity"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_corner_garden_soil_conductivity_2",
+          "friendlyName": "Corner Garden Soil Conductivity",
+          "cSharpName": "PlantSensorWithDisplayCornerGardenSoilConductivity2"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_corner_garden_temperature",
+          "friendlyName": "Plant Sensor With Display Corner Garden Temperature",
+          "cSharpName": "PlantSensorWithDisplayCornerGardenTemperature"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_corner_garden_temperature_2",
+          "friendlyName": "Corner Garden Temperature",
+          "cSharpName": "PlantSensorWithDisplayCornerGardenTemperature2"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_plant_sensor_humidity",
+          "friendlyName": "Plant Sensor With Display Plant Sensor Humidity",
+          "cSharpName": "PlantSensorWithDisplayPlantSensorHumidity"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_plant_sensor_temperature",
+          "friendlyName": "Plant Sensor With Display Plant Sensor Temperature",
+          "cSharpName": "PlantSensorWithDisplayPlantSensorTemperature"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_plantsensor_wifi_signal_sensor",
+          "friendlyName": "plantsensor WiFi Signal Sensor",
+          "cSharpName": "PlantSensorWithDisplayPlantsensorWifiSignalSensor"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_plantsensor_wifi_signal_sensor_2",
+          "friendlyName": "Plant Sensor With Display plantsensor WiFi Signal Sensor",
+          "cSharpName": "PlantSensorWithDisplayPlantsensorWifiSignalSensor2"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_tent_battery_level",
+          "friendlyName": "Plant Sensor With Display Tent Battery Level",
+          "cSharpName": "PlantSensorWithDisplayTentBatteryLevel"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_tent_battery_level_2",
+          "friendlyName": "Tent Battery Level",
+          "cSharpName": "PlantSensorWithDisplayTentBatteryLevel2"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_tent_illuminance",
+          "friendlyName": "Plant Sensor With Display Tent Illuminance",
+          "cSharpName": "PlantSensorWithDisplayTentIlluminance"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_tent_illuminance_2",
+          "friendlyName": "Tent Illuminance",
+          "cSharpName": "PlantSensorWithDisplayTentIlluminance2"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_tent_moisture",
+          "friendlyName": "Plant Sensor With Display Tent Moisture",
+          "cSharpName": "PlantSensorWithDisplayTentMoisture"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_tent_moisture_2",
+          "friendlyName": "Tent Moisture",
+          "cSharpName": "PlantSensorWithDisplayTentMoisture2"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_tent_soil_conductivity",
+          "friendlyName": "Plant Sensor With Display Tent Soil Conductivity",
+          "cSharpName": "PlantSensorWithDisplayTentSoilConductivity"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_tent_soil_conductivity_2",
+          "friendlyName": "Tent Soil Conductivity",
+          "cSharpName": "PlantSensorWithDisplayTentSoilConductivity2"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_tent_temperature",
+          "friendlyName": "Plant Sensor With Display Tent Temperature",
+          "cSharpName": "PlantSensorWithDisplayTentTemperature"
+        },
+        {
+          "id": "sensor.plant_sensor_with_display_tent_temperature_2",
+          "friendlyName": "Tent Temperature",
+          "cSharpName": "PlantSensorWithDisplayTentTemperature2"
+        },
+        {
+          "id": "sensor.portable_ac_mode_numeric",
+          "friendlyName": "Portable AC Mode (Numeric)",
+          "cSharpName": "PortableAcModeNumeric"
+        },
+        {
+          "id": "sensor.portable_air_conditioner_daily_energy_consumption",
+          "friendlyName": "Portable air conditioner Daily energy consumption",
+          "cSharpName": "PortableAirConditionerDailyEnergyConsumption"
+        },
+        {
+          "id": "sensor.processor_temperature",
+          "friendlyName": "System Monitor Processor temperature",
+          "cSharpName": "ProcessorTemperature"
+        },
+        {
+          "id": "sensor.processor_use",
+          "friendlyName": "System Monitor Processor use",
+          "cSharpName": "ProcessorUse"
+        },
+        {
+          "id": "sensor.pulse_counter",
+          "friendlyName": "Pulse Counter",
+          "cSharpName": "PulseCounter"
+        },
+        {
+          "id": "sensor.qbittorrent_active_torrents",
+          "friendlyName": "Active torrents",
+          "cSharpName": "QbittorrentActiveTorrents"
+        },
+        {
+          "id": "sensor.qbittorrent_all_torrents",
+          "friendlyName": "All torrents",
+          "cSharpName": "QbittorrentAllTorrents"
+        },
+        {
+          "id": "sensor.qbittorrent_download_speed",
+          "friendlyName": "Download speed",
+          "cSharpName": "QbittorrentDownloadSpeed"
+        },
+        {
+          "id": "sensor.qbittorrent_inactive_torrents",
+          "friendlyName": "Inactive torrents",
+          "cSharpName": "QbittorrentInactiveTorrents"
+        },
+        {
+          "id": "sensor.qbittorrent_paused_torrents",
+          "friendlyName": "Paused torrents",
+          "cSharpName": "QbittorrentPausedTorrents"
+        },
+        {
+          "id": "sensor.qbittorrent_upload_speed",
+          "friendlyName": "Upload speed",
+          "cSharpName": "QbittorrentUploadSpeed"
+        },
+        {
+          "id": "sensor.rem_sleep",
+          "friendlyName": "REM Sleep",
+          "cSharpName": "RemSleep"
+        },
+        {
+          "id": "sensor.resting_heart_rate",
+          "friendlyName": "Resting Heart Rate",
+          "cSharpName": "RestingHeartRate"
+        },
+        {
+          "id": "sensor.sleep",
+          "friendlyName": "Sleep",
+          "cSharpName": "Sleep"
+        },
+        {
+          "id": "sensor.sm_s901e_battery_level",
+          "friendlyName": "SM-S901E Battery level",
+          "cSharpName": "SmS901eBatteryLevel"
+        },
+        {
+          "id": "sensor.sm_s901e_battery_power",
+          "friendlyName": "SM-S901E Battery power",
+          "cSharpName": "SmS901eBatteryPower"
+        },
+        {
+          "id": "sensor.sm_s901e_battery_temperature",
+          "friendlyName": "SM-S901E Battery temperature",
+          "cSharpName": "SmS901eBatteryTemperature"
+        },
+        {
+          "id": "sensor.sm_s901e_light_sensor",
+          "friendlyName": "SM-S901E Light sensor",
+          "cSharpName": "SmS901eLightSensor"
+        },
+        {
+          "id": "sensor.sm_s901e_mobile_rx_gb",
+          "friendlyName": "SM-S901E Mobile Rx GB",
+          "cSharpName": "SmS901eMobileRxGb"
+        },
+        {
+          "id": "sensor.sm_s901e_mobile_tx_gb",
+          "friendlyName": "SM-S901E Mobile Tx GB",
+          "cSharpName": "SmS901eMobileTxGb"
+        },
+        {
+          "id": "sensor.sm_s901e_pressure_sensor",
+          "friendlyName": "SM-S901E Pressure sensor",
+          "cSharpName": "SmS901ePressureSensor"
+        },
+        {
+          "id": "sensor.sm_s901e_sleep_confidence",
+          "friendlyName": "SM-S901E Sleep confidence",
+          "cSharpName": "SmS901eSleepConfidence"
+        },
+        {
+          "id": "sensor.sm_s901e_steps_sensor",
+          "friendlyName": "SM-S901E Steps sensor",
+          "cSharpName": "SmS901eStepsSensor"
+        },
+        {
+          "id": "sensor.sm_s901e_total_rx_gb",
+          "friendlyName": "SM-S901E Total Rx GB",
+          "cSharpName": "SmS901eTotalRxGb"
+        },
+        {
+          "id": "sensor.sm_s901e_total_tx_gb",
+          "friendlyName": "SM-S901E Total Tx GB",
+          "cSharpName": "SmS901eTotalTxGb"
+        },
+        {
+          "id": "sensor.sm_s901e_wifi_signal_strength",
+          "friendlyName": "SM-S901E WiFi signal strength",
+          "cSharpName": "SmS901eWifiSignalStrength"
+        },
+        {
+          "id": "sensor.sonoff_1001d94b39_current",
+          "friendlyName": "Garage  Current",
+          "cSharpName": "Sonoff1001d94b39Current"
+        },
+        {
+          "id": "sensor.sonoff_1001d94b39_power",
+          "friendlyName": "Garage  Power",
+          "cSharpName": "Sonoff1001d94b39Power"
+        },
+        {
+          "id": "sensor.sonoff_1001d94b39_voltage",
+          "friendlyName": "Garage  Voltage",
+          "cSharpName": "Sonoff1001d94b39Voltage"
+        },
+        {
+          "id": "sensor.speedtest_download",
+          "friendlyName": "SpeedTest Download",
+          "cSharpName": "SpeedtestDownload"
+        },
+        {
+          "id": "sensor.speedtest_ping",
+          "friendlyName": "SpeedTest Ping",
+          "cSharpName": "SpeedtestPing"
+        },
+        {
+          "id": "sensor.speedtest_upload",
+          "friendlyName": "SpeedTest Upload",
+          "cSharpName": "SpeedtestUpload"
+        },
+        {
+          "id": "sensor.swap_free",
+          "friendlyName": "System Monitor Swap free",
+          "cSharpName": "SwapFree"
+        },
+        {
+          "id": "sensor.swap_use",
+          "friendlyName": "System Monitor Swap use",
+          "cSharpName": "SwapUse"
+        },
+        {
+          "id": "sensor.swap_use_percent",
+          "friendlyName": "System Monitor Swap usage",
+          "cSharpName": "SwapUsePercent"
+        },
+        {
+          "id": "sensor.testing_power",
+          "friendlyName": "Testing Power",
+          "cSharpName": "TestingPower"
+        },
+        {
+          "id": "sensor.trade_volume",
+          "friendlyName": "Trade volume",
+          "cSharpName": "TradeVolume"
+        },
+        {
+          "id": "sensor.water_pump_box_battery_level",
+          "friendlyName": "Box Battery Level",
+          "cSharpName": "WaterPumpBoxBatteryLevel"
+        },
+        {
+          "id": "sensor.water_pump_box_illuminance",
+          "friendlyName": "Box Illuminance",
+          "cSharpName": "WaterPumpBoxIlluminance"
+        },
+        {
+          "id": "sensor.water_pump_box_moisture",
+          "friendlyName": "Box Moisture",
+          "cSharpName": "WaterPumpBoxMoisture"
+        },
+        {
+          "id": "sensor.water_pump_box_soil_conductivity",
+          "friendlyName": "Box Soil Conductivity",
+          "cSharpName": "WaterPumpBoxSoilConductivity"
+        },
+        {
+          "id": "sensor.water_pump_box_temperature",
+          "friendlyName": "Box Temperature",
+          "cSharpName": "WaterPumpBoxTemperature"
+        },
+        {
+          "id": "sensor.water_pump_pulse_counter",
+          "friendlyName": "Pulse Counter",
+          "cSharpName": "WaterPumpPulseCounter"
+        },
+        {
+          "id": "sensor.water_pump_wifi_signal_sensor",
+          "friendlyName": "water-pump WiFi Signal Sensor",
+          "cSharpName": "WaterPumpWifiSignalSensor"
+        },
+        {
+          "id": "sensor.water_pump_wifi_signal_sensor_2",
+          "friendlyName": "WiFi Signal Sensor",
+          "cSharpName": "WaterPumpWifiSignalSensor2"
+        },
+        {
+          "id": "sensor.weight",
+          "friendlyName": "Weight",
+          "cSharpName": "Weight"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "unit_of_measurement",
+          "cSharpName": "UnitOfMeasurement",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "attribution",
+          "cSharpName": "Attribution",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "icon",
+          "cSharpName": "Icon",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "state_class",
+          "cSharpName": "StateClass",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "device_class",
+          "cSharpName": "DeviceClass",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "server_name",
+          "cSharpName": "ServerName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "server_country",
+          "cSharpName": "ServerCountry",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "server_id",
+          "cSharpName": "ServerId",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "bytes_received",
+          "cSharpName": "BytesReceived",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "bytes_sent",
+          "cSharpName": "BytesSent",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "moon_altitude_radians",
+          "cSharpName": "MoonAltitudeRadians",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "moon_azimuth_radians",
+          "cSharpName": "MoonAzimuthRadians",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "moon_parallactic_angle",
+          "cSharpName": "MoonParallacticAngle",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "Protocol",
+          "cSharpName": "Protocol",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "Remote Server",
+          "cSharpName": "RemoteServer",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "Remote Port",
+          "cSharpName": "RemotePort",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "Version",
+          "cSharpName": "Version",
+          "clrType": null
+        },
+        {
+          "jsonName": "entity_picture",
+          "cSharpName": "EntityPicture",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "level",
+          "cSharpName": "Level",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "equipment",
+          "cSharpName": "Equipment",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "class",
+          "cSharpName": "Class",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "allocated",
+          "cSharpName": "Allocated",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "buffs",
+          "cSharpName": "Buffs",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "c89c7ae9-771a-4886-9cb1-4968635b3e45",
+          "cSharpName": "C89c7ae9771a48869cb14968635b3e45",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "885f9348-78ec-462a-8b95-c8a35df5d825",
+          "cSharpName": "_885f934878ec462a8b95c8a35df5d825",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "80f3deb0-09f9-48df-8d32-b05b93027a51",
+          "cSharpName": "_80f3deb009f948df8d32b05b93027a51",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "ce7d9ce2-9355-4191-9e48-ffb6b98a7573",
+          "cSharpName": "Ce7d9ce2935541919e48ffb6b98a7573",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "204448c5-8f0d-44d9-80fa-a622e8caeee8",
+          "cSharpName": "_204448c58f0d44d980faa622e8caeee8",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "dd9765f7-0dca-4d67-9ca8-dcaaa067769a",
+          "cSharpName": "Dd9765f70dca4d679ca8dcaaa067769a",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "8b198977-13d1-4f61-93ae-3f39b1e77567",
+          "cSharpName": "_8b19897713d14f6193ae3f39b1e77567",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "f21d4f3c-4fc9-4742-a449-7876b0923bed",
+          "cSharpName": "F21d4f3c4fc94742a4497876b0923bed",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "bc588993-8a18-4805-a922-482628eb0a72",
+          "cSharpName": "Bc5889938a184805a922482628eb0a72",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "39a1806d-58fc-4921-a648-c14f8bbf5cf7",
+          "cSharpName": "_39a1806d58fc4921a648c14f8bbf5cf7",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "bc8e6d52-7dec-4db9-a4b0-396d9b03866d",
+          "cSharpName": "Bc8e6d527dec4db9a4b0396d9b03866d",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "52f86785-bae2-4c19-b8d1-7d865cd5829e",
+          "cSharpName": "_52f86785bae24c19b8d17d865cd5829e",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "81e990e9-e8b0-4436-af38-bb92f4a85973",
+          "cSharpName": "_81e990e9e8b04436af38bb92f4a85973",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "55333295-8e3e-4f4d-9a28-2d8872683e87",
+          "cSharpName": "_553332958e3e4f4d9a282d8872683e87",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "3177e574-fda5-4a94-b088-a0b96e2dc633",
+          "cSharpName": "_3177e574fda54a94b088a0b96e2dc633",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "4947ff91-0caf-4057-b092-b57f617eac42",
+          "cSharpName": "_4947ff910caf4057b092b57f617eac42",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "8b9381d7-33cb-4340-9ce6-ae4a2be6b3bb",
+          "cSharpName": "_8b9381d733cb43409ce6ae4a2be6b3bb",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "d7418a85-1948-4f29-86d2-b121014178b9",
+          "cSharpName": "D7418a8519484f2986d2b121014178b9",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "f4124376-ac5d-4fbf-8daf-a3c60a89d697",
+          "cSharpName": "F4124376ac5d4fbf8dafa3c60a89d697",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "0cab230c-1ba2-4757-bbcc-eca885e8f05b",
+          "cSharpName": "_0cab230c1ba24757bbcceca885e8f05b",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "c2ecc7f7-fb6b-407d-b8d2-5511306094dd",
+          "cSharpName": "C2ecc7f7fb6b407db8d25511306094dd",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "2b1e8803-3c71-4c2e-a2ce-cae973b64a05",
+          "cSharpName": "_2b1e88033c714c2ea2cecae973b64a05",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "38034483-1fae-4172-9d6b-b1c377f97868",
+          "cSharpName": "_380344831fae41729d6bb1c377f97868",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "9145a9dd-d116-443f-9d12-73c6b58d9261",
+          "cSharpName": "_9145a9ddd116443f9d1273c6b58d9261",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "5621187d-8353-4180-ad77-ef3bf31f7f88",
+          "cSharpName": "_5621187d83534180ad77ef3bf31f7f88",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "c283e49d-2e4a-47ff-9fd5-71809e276fad",
+          "cSharpName": "C283e49d2e4a47ff9fd571809e276fad",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "ca6afb8c-4fdf-4540-970d-5cc958812ac9",
+          "cSharpName": "Ca6afb8c4fdf4540970d5cc958812ac9",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "9b728e13-c7fe-4db7-976c-8a0bdb7933f3",
+          "cSharpName": "_9b728e13c7fe4db7976c8a0bdb7933f3",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "2352ed1f-248c-4f9c-b885-3a16af4099c1",
+          "cSharpName": "_2352ed1f248c4f9cb8853a16af4099c1",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "current",
+          "cSharpName": "Current",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "voltage",
+          "cSharpName": "Voltage",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "light",
+          "cSharpName": "Light",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "motion",
+          "cSharpName": "Motion",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "timestamp",
+          "cSharpName": "Timestamp",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "end",
+          "cSharpName": "End",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "start",
+          "cSharpName": "Start",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "status",
+          "cSharpName": "Status",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "free_memory",
+          "cSharpName": "FreeMemory",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "total_memory",
+          "cSharpName": "TotalMemory",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "connected_not_paired_devices",
+          "cSharpName": "ConnectedNotPairedDevices",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.Object]"
+        },
+        {
+          "jsonName": "connected_paired_devices",
+          "cSharpName": "ConnectedPairedDevices",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.Object]"
+        },
+        {
+          "jsonName": "paired_devices",
+          "cSharpName": "PairedDevices",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "android.appInfo_com.android.systemui_3",
+          "cSharpName": "Android_appInfoCom_android_systemui3",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "android.bigText_com.android.systemui_3",
+          "cSharpName": "Android_bigTextCom_android_systemui3",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "android.reduced.images_com.android.systemui_3",
+          "cSharpName": "Android_reduced_imagesCom_android_systemui3",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "android.showWhen_com.android.systemui_3",
+          "cSharpName": "Android_showWhenCom_android_systemui3",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "android.substName_com.android.systemui_3",
+          "cSharpName": "Android_substNameCom_android_systemui3",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "android.template_com.android.systemui_3",
+          "cSharpName": "Android_templateCom_android_systemui3",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "android.text_com.android.systemui_3",
+          "cSharpName": "Android_textCom_android_systemui3",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "android.title_com.android.systemui_3",
+          "cSharpName": "Android_titleCom_android_systemui3",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "com.android.systemui_3_category",
+          "cSharpName": "Com_android_systemui3Category",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "com.android.systemui_3_channel_id",
+          "cSharpName": "Com_android_systemui3ChannelId",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "com.android.systemui_3_group_id",
+          "cSharpName": "Com_android_systemui3GroupId",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "com.android.systemui_3_is_clearable",
+          "cSharpName": "Com_android_systemui3IsClearable",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "com.android.systemui_3_is_ongoing",
+          "cSharpName": "Com_android_systemui3IsOngoing",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "com.android.systemui_3_post_time",
+          "cSharpName": "Com_android_systemui3PostTime",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "last_reset",
+          "cSharpName": "LastReset",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "type",
+          "cSharpName": "Type",
+          "clrType": null
+        },
+        {
+          "jsonName": "direction",
+          "cSharpName": "Direction",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "source",
+          "cSharpName": "Source",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "restored",
+          "cSharpName": "Restored",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        }
+      ]
+    },
+    {
+      "domain": "sun",
+      "entities": [
+        {
+          "id": "sun.sun",
+          "friendlyName": "Sun",
+          "cSharpName": "Sun"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "next_dawn",
+          "cSharpName": "NextDawn",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "next_dusk",
+          "cSharpName": "NextDusk",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "next_midnight",
+          "cSharpName": "NextMidnight",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "next_noon",
+          "cSharpName": "NextNoon",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "next_rising",
+          "cSharpName": "NextRising",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "next_setting",
+          "cSharpName": "NextSetting",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "elevation",
+          "cSharpName": "Elevation",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "azimuth",
+          "cSharpName": "Azimuth",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "rising",
+          "cSharpName": "Rising",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "switch",
+      "entities": [
+        {
+          "id": "switch.boorgat_socket_1",
+          "friendlyName": "Boorgat Socket 1",
+          "cSharpName": "BoorgatSocket1"
+        },
+        {
+          "id": "switch.geyser_socket_1",
+          "friendlyName": "Geyser  Socket 1",
+          "cSharpName": "GeyserSocket1"
+        },
+        {
+          "id": "switch.henzard_kruger_rest_in_the_inn",
+          "friendlyName": "Henzard Kruger Rest in the inn",
+          "cSharpName": "HenzardKrugerRestInTheInn"
+        },
+        {
+          "id": "switch.not_used",
+          "friendlyName": "Not Used",
+          "cSharpName": "NotUsed"
+        },
+        {
+          "id": "switch.plant_sensor_with_display_plantsensor_restart",
+          "friendlyName": "PlantSensor Restart",
+          "cSharpName": "PlantSensorWithDisplayPlantsensorRestart"
+        },
+        {
+          "id": "switch.plant_sensor_with_display_plantsensor_restart_2",
+          "friendlyName": "Plant Sensor With Display PlantSensor Restart",
+          "cSharpName": "PlantSensorWithDisplayPlantsensorRestart2"
+        },
+        {
+          "id": "switch.portable_air_conditioner_eco",
+          "friendlyName": "Portable air conditioner Eco",
+          "cSharpName": "PortableAirConditionerEco"
+        },
+        {
+          "id": "switch.portable_air_conditioner_fan_mute",
+          "friendlyName": "Portable air conditioner Fan mute",
+          "cSharpName": "PortableAirConditionerFanMute"
+        },
+        {
+          "id": "switch.portable_air_conditioner_super",
+          "friendlyName": "Portable air conditioner Super",
+          "cSharpName": "PortableAirConditionerSuper"
+        },
+        {
+          "id": "switch.qbittorrent_alternative_speed",
+          "friendlyName": "Alternative speed",
+          "cSharpName": "QbittorrentAlternativeSpeed"
+        },
+        {
+          "id": "switch.scale_switch",
+          "friendlyName": "Scale Switch",
+          "cSharpName": "ScaleSwitch"
+        },
+        {
+          "id": "switch.sonoff_1001d94b39",
+          "friendlyName": "Garage ",
+          "cSharpName": "Sonoff1001d94b39"
+        },
+        {
+          "id": "switch.sonoff_1001eaf358_1",
+          "friendlyName": "Living room Fan",
+          "cSharpName": "Sonoff1001eaf3581"
+        },
+        {
+          "id": "switch.sonoff_1002025af6_1",
+          "friendlyName": "Garage Door",
+          "cSharpName": "Sonoff1002025af61"
+        },
+        {
+          "id": "switch.sonoff_1002025b00_1",
+          "friendlyName": "Hek",
+          "cSharpName": "Sonoff1002025b001"
+        },
+        {
+          "id": "switch.switch_test",
+          "friendlyName": "switch test",
+          "cSharpName": "SwitchTest"
+        },
+        {
+          "id": "switch.water_pump",
+          "friendlyName": "Water Pump",
+          "cSharpName": "WaterPump"
+        },
+        {
+          "id": "switch.water_pump_not_used",
+          "friendlyName": "Not Used",
+          "cSharpName": "WaterPumpNotUsed"
+        },
+        {
+          "id": "switch.water_pump_water_pump",
+          "friendlyName": "Water Pump",
+          "cSharpName": "WaterPumpWaterPump"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "device_class",
+          "cSharpName": "DeviceClass",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "icon",
+          "cSharpName": "Icon",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "restored",
+          "cSharpName": "Restored",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        }
+      ]
+    },
+    {
+      "domain": "tag",
+      "entities": [
+        {
+          "id": "tag.blue_tag",
+          "friendlyName": "Blue Tag",
+          "cSharpName": "BlueTag"
+        },
+        {
+          "id": "tag.henzard_mobi",
+          "friendlyName": "Henzard Mobi",
+          "cSharpName": "HenzardMobi"
+        },
+        {
+          "id": "tag.round_blue",
+          "friendlyName": "Round Blue",
+          "cSharpName": "RoundBlue"
+        },
+        {
+          "id": "tag.stephan_mobi",
+          "friendlyName": "Stephan Mobi",
+          "cSharpName": "StephanMobi"
+        },
+        {
+          "id": "tag.white_card",
+          "friendlyName": "White Card",
+          "cSharpName": "WhiteCard"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "tag_id",
+          "cSharpName": "TagId",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "last_scanned_by_device_id",
+          "cSharpName": "LastScannedByDeviceId",
+          "clrType": null
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "timer",
+      "entities": [
+        {
+          "id": "timer.water_plants",
+          "friendlyName": "Water Plants",
+          "cSharpName": "WaterPlants"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "duration",
+          "cSharpName": "Duration",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "editable",
+          "cSharpName": "Editable",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "icon",
+          "cSharpName": "Icon",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "todo",
+      "entities": [
+        {
+          "id": "todo.henzard_kruger_dailies",
+          "friendlyName": "Henzard Kruger Dailies",
+          "cSharpName": "HenzardKrugerDailies"
+        },
+        {
+          "id": "todo.henzard_kruger_to_do_s",
+          "friendlyName": "Henzard Kruger To-Do\u0027s",
+          "cSharpName": "HenzardKrugerToDoS"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        }
+      ]
+    },
+    {
+      "domain": "update",
+      "entities": [
+        {
+          "id": "update.apache2_update",
+          "friendlyName": "Apache2 Update",
+          "cSharpName": "Apache2Update"
+        },
+        {
+          "id": "update.auto_entities_update",
+          "friendlyName": "auto-entities update",
+          "cSharpName": "AutoEntitiesUpdate"
+        },
+        {
+          "id": "update.chrony_update",
+          "friendlyName": "chrony Update",
+          "cSharpName": "ChronyUpdate"
+        },
+        {
+          "id": "update.connectlife_api_proxy_mqtt_add_on_update",
+          "friendlyName": "Connectlife API proxy \u0026 MQTT Add-on Update",
+          "cSharpName": "ConnectlifeApiProxyMqttAddOnUpdate"
+        },
+        {
+          "id": "update.connectlife_update",
+          "friendlyName": "ConnectLife update",
+          "cSharpName": "ConnectlifeUpdate"
+        },
+        {
+          "id": "update.esp_cam01_firmware",
+          "friendlyName": "Firmware",
+          "cSharpName": "EspCam01Firmware"
+        },
+        {
+          "id": "update.esp_cam02_firmware",
+          "friendlyName": "Esp-Cam02 Firmware",
+          "cSharpName": "EspCam02Firmware"
+        },
+        {
+          "id": "update.esp32_humidity_and_temp_firmware",
+          "friendlyName": "Firmware",
+          "cSharpName": "Esp32HumidityAndTempFirmware"
+        },
+        {
+          "id": "update.esphome_update",
+          "friendlyName": "ESPHome Device Builder Update",
+          "cSharpName": "EsphomeUpdate"
+        },
+        {
+          "id": "update.google_fit_update",
+          "friendlyName": "Google Fit update",
+          "cSharpName": "GoogleFitUpdate"
+        },
+        {
+          "id": "update.grafana_update",
+          "friendlyName": "Grafana Update",
+          "cSharpName": "GrafanaUpdate"
+        },
+        {
+          "id": "update.hacs_update",
+          "friendlyName": "HACS update",
+          "cSharpName": "HacsUpdate"
+        },
+        {
+          "id": "update.hass_agent_update",
+          "friendlyName": "HASS.Agent update",
+          "cSharpName": "HassAgentUpdate"
+        },
+        {
+          "id": "update.home_assistant_core_update",
+          "friendlyName": "Home Assistant Core Update",
+          "cSharpName": "HomeAssistantCoreUpdate"
+        },
+        {
+          "id": "update.home_assistant_google_drive_backup_update",
+          "friendlyName": "Home Assistant Google Drive Backup Update",
+          "cSharpName": "HomeAssistantGoogleDriveBackupUpdate"
+        },
+        {
+          "id": "update.home_assistant_operating_system_update",
+          "friendlyName": "Home Assistant Operating System Update",
+          "cSharpName": "HomeAssistantOperatingSystemUpdate"
+        },
+        {
+          "id": "update.home_assistant_supervisor_update",
+          "friendlyName": "Home Assistant Supervisor Update",
+          "cSharpName": "HomeAssistantSupervisorUpdate"
+        },
+        {
+          "id": "update.influxdb_update",
+          "friendlyName": "InfluxDB Update",
+          "cSharpName": "InfluxdbUpdate"
+        },
+        {
+          "id": "update.ios_themes_dark_mode_and_light_mode_update",
+          "friendlyName": "iOS Themes - Dark Mode and Light Mode update",
+          "cSharpName": "IosThemesDarkModeAndLightModeUpdate"
+        },
+        {
+          "id": "update.lunar_phase_update",
+          "friendlyName": "Lunar Phase update",
+          "cSharpName": "LunarPhaseUpdate"
+        },
+        {
+          "id": "update.microsoft_graph_update",
+          "friendlyName": "Microsoft Graph update",
+          "cSharpName": "MicrosoftGraphUpdate"
+        },
+        {
+          "id": "update.mini_graph_card_update",
+          "friendlyName": "mini-graph-card update",
+          "cSharpName": "MiniGraphCardUpdate"
+        },
+        {
+          "id": "update.mosquitto_broker_update",
+          "friendlyName": "Mosquitto broker Update",
+          "cSharpName": "MosquittoBrokerUpdate"
+        },
+        {
+          "id": "update.motioneye_update",
+          "friendlyName": "motionEye Update",
+          "cSharpName": "MotioneyeUpdate"
+        },
+        {
+          "id": "update.netdaemon_update",
+          "friendlyName": "NetDaemon update",
+          "cSharpName": "NetdaemonUpdate"
+        },
+        {
+          "id": "update.netdaemon_v3_beta_update",
+          "friendlyName": "NetDaemon V3 - beta Update",
+          "cSharpName": "NetdaemonV3BetaUpdate"
+        },
+        {
+          "id": "update.node_red_update",
+          "friendlyName": "Node-RED Update",
+          "cSharpName": "NodeRedUpdate"
+        },
+        {
+          "id": "update.plant_sensor_with_display_firmware",
+          "friendlyName": "Firmware",
+          "cSharpName": "PlantSensorWithDisplayFirmware"
+        },
+        {
+          "id": "update.rhasspy_assistant_update",
+          "friendlyName": "Rhasspy Assistant Update",
+          "cSharpName": "RhasspyAssistantUpdate"
+        },
+        {
+          "id": "update.sleep_as_android_update",
+          "friendlyName": "Sleep As Android update",
+          "cSharpName": "SleepAsAndroidUpdate"
+        },
+        {
+          "id": "update.sonoff_lan_update",
+          "friendlyName": "Sonoff LAN update",
+          "cSharpName": "SonoffLanUpdate"
+        },
+        {
+          "id": "update.studio_code_server_update",
+          "friendlyName": "Studio Code Server Update",
+          "cSharpName": "StudioCodeServerUpdate"
+        },
+        {
+          "id": "update.tag_reader_firmware",
+          "friendlyName": "Tag-Reader Firmware",
+          "cSharpName": "TagReaderFirmware"
+        },
+        {
+          "id": "update.tailscale_update",
+          "friendlyName": "Tailscale Update",
+          "cSharpName": "TailscaleUpdate"
+        },
+        {
+          "id": "update.terminal_ssh_update",
+          "friendlyName": "Terminal \u0026 SSH Update",
+          "cSharpName": "TerminalSshUpdate"
+        },
+        {
+          "id": "update.water_pump_firmware",
+          "friendlyName": "Firmware",
+          "cSharpName": "WaterPumpFirmware"
+        },
+        {
+          "id": "update.weighsoft_serial_server_firmware",
+          "friendlyName": "Firmware",
+          "cSharpName": "WeighsoftSerialServerFirmware"
+        },
+        {
+          "id": "update.whatsapp_update",
+          "friendlyName": "Whatsapp Update",
+          "cSharpName": "WhatsappUpdate"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "auto_update",
+          "cSharpName": "AutoUpdate",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "display_precision",
+          "cSharpName": "DisplayPrecision",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "installed_version",
+          "cSharpName": "InstalledVersion",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "in_progress",
+          "cSharpName": "InProgress",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "latest_version",
+          "cSharpName": "LatestVersion",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "release_summary",
+          "cSharpName": "ReleaseSummary",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "release_url",
+          "cSharpName": "ReleaseUrl",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "skipped_version",
+          "cSharpName": "SkippedVersion",
+          "clrType": null
+        },
+        {
+          "jsonName": "title",
+          "cSharpName": "Title",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "update_percentage",
+          "cSharpName": "UpdatePercentage",
+          "clrType": null
+        },
+        {
+          "jsonName": "entity_picture",
+          "cSharpName": "EntityPicture",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "restored",
+          "cSharpName": "Restored",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "device_class",
+          "cSharpName": "DeviceClass",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "weather",
+      "entities": [
+        {
+          "id": "weather.home",
+          "friendlyName": "Home",
+          "cSharpName": "Home"
+        },
+        {
+          "id": "weather.home_2",
+          "friendlyName": "Home",
+          "cSharpName": "Home2"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "temperature",
+          "cSharpName": "Temperature",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "apparent_temperature",
+          "cSharpName": "ApparentTemperature",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "dew_point",
+          "cSharpName": "DewPoint",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "temperature_unit",
+          "cSharpName": "TemperatureUnit",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "humidity",
+          "cSharpName": "Humidity",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "cloud_coverage",
+          "cSharpName": "CloudCoverage",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "uv_index",
+          "cSharpName": "UvIndex",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "pressure",
+          "cSharpName": "Pressure",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "pressure_unit",
+          "cSharpName": "PressureUnit",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "wind_bearing",
+          "cSharpName": "WindBearing",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "wind_gust_speed",
+          "cSharpName": "WindGustSpeed",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "wind_speed",
+          "cSharpName": "WindSpeed",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "wind_speed_unit",
+          "cSharpName": "WindSpeedUnit",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "visibility",
+          "cSharpName": "Visibility",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "visibility_unit",
+          "cSharpName": "VisibilityUnit",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "precipitation_unit",
+          "cSharpName": "PrecipitationUnit",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "attribution",
+          "cSharpName": "Attribution",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        }
+      ]
+    },
+    {
+      "domain": "zone",
+      "entities": [
+        {
+          "id": "zone.garage",
+          "friendlyName": "Garage",
+          "cSharpName": "Garage"
+        },
+        {
+          "id": "zone.home",
+          "friendlyName": "Home",
+          "cSharpName": "Home"
+        },
+        {
+          "id": "zone.rhyno",
+          "friendlyName": "Rhyno",
+          "cSharpName": "Rhyno"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "latitude",
+          "cSharpName": "Latitude",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "longitude",
+          "cSharpName": "Longitude",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "radius",
+          "cSharpName": "Radius",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "passive",
+          "cSharpName": "Passive",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "persons",
+          "cSharpName": "Persons",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "editable",
+          "cSharpName": "Editable",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "icon",
+          "cSharpName": "Icon",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    }
+  ]
+}
