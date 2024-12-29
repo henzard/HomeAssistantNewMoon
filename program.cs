@@ -16,7 +16,8 @@ try
         .ConfigureAppConfiguration((context, config) =>
         {
             config.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
-                  .AddJsonFile("appsettings.docker.json", optional: true, reloadOnChange: true);
+                  .AddJsonFile("appsettings.docker.json", optional: true, reloadOnChange: true)
+                  .AddJsonFile("appsettings.Development.json", optional: true, reloadOnChange: true);
         })
         .UseNetDaemonAppSettings()
         .UseNetDaemonDefaultLogging()
